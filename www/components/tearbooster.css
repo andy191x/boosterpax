@@ -1,0 +1,20 @@
+
+.tearbooster {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    position: relative;
+    overflow: visible;
+}
+
+.tearbooster_common {
+    display: none;
+}
+
+.tearbooster_pack1 {
+    clip-path: url(#tearbooster_pack1_svg);
+}
+
+.tearbooster_pack2 {
+    clip-path: url(#tearbooster_pack2_svg);
+}

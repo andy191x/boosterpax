@@ -1,0 +1,28 @@
+
+.stage {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.stage .preload_init {
+    display: none;
+}
+
+.stage .preload_error {
+    display: none;
+}
+
+.stage .isotope {
+    position: relative;
+    display: none;
+    margin: 0 auto;
+    padding: 1.0rem;
+}
+
+.stage .isotope .domcard {
+    margin: 0 1.0rem 1.0rem 0;
+}

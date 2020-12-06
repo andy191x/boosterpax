@@ -1,0 +1,910 @@
+{
+	"set": {
+		"code": "atq",
+		"name": "Antiquities",
+		"released_at": "1994-03-04",
+		"card_count": 100
+	},
+	"card_array": [
+		{
+			"id": "ce83a3cb-467d-44f6-a051-4855c8cf52a6",
+			"name": "Argivian Archaeologist",
+			"colors": "W",
+			"rarity": "rare",
+			"rarity_app": "u1",
+			"cmc": 3,
+			"type": "Creature — Human Artificer"
+		},
+		{
+			"id": "5f604338-5ee4-4c47-ad5a-5c805c96c8de",
+			"name": "Argivian Blacksmith",
+			"colors": "W",
+			"rarity": "common",
+			"rarity_app": "c4",
+			"cmc": 3,
+			"type": "Creature — Human Artificer"
+		},
+		{
+			"id": "b3a5101a-ec66-4658-950c-9ad49c29b836",
+			"name": "Artifact Ward",
+			"colors": "W",
+			"rarity": "common",
+			"rarity_app": "c4",
+			"cmc": 1,
+			"type": "Enchantment — Aura"
+		},
+		{
+			"id": "22ebd5a3-fef8-4097-b038-89a6cb38227d",
+			"name": "Circle of Protection: Artifacts",
+			"colors": "W",
+			"rarity": "uncommon",
+			"rarity_app": "u3",
+			"cmc": 2,
+			"type": "Enchantment"
+		},
+		{
+			"id": "12ab9836-bc90-4d92-a86d-b8e1b7671aa7",
+			"name": "Damping Field",
+			"colors": "W",
+			"rarity": "uncommon",
+			"rarity_app": "u3",
+			"cmc": 3,
+			"type": "Enchantment"
+		},
+		{
+			"id": "bde037b9-4947-4ff7-8ea4-e9f1a7e4ab88",
+			"name": "Martyrs of Korlis",
+			"colors": "W",
+			"rarity": "uncommon",
+			"rarity_app": "u3",
+			"cmc": 5,
+			"type": "Creature — Human"
+		},
+		{
+			"id": "da7ed8ba-3886-4779-a9b3-6892a7ed3527",
+			"name": "Reverse Polarity",
+			"colors": "W",
+			"rarity": "common",
+			"rarity_app": "c4",
+			"cmc": 2,
+			"type": "Instant"
+		},
+		{
+			"id": "4be2aa3b-207b-4d21-abfb-6788520c7676",
+			"name": "Drafna's Restoration",
+			"colors": "U",
+			"rarity": "common",
+			"rarity_app": "c4",
+			"cmc": 1,
+			"type": "Sorcery"
+		},
+		{
+			"id": "bd1f624b-e8f2-462f-838a-7cb9e8fda988",
+			"name": "Energy Flux",
+			"colors": "U",
+			"rarity": "uncommon",
+			"rarity_app": "u3",
+			"cmc": 3,
+			"type": "Enchantment"
+		},
+		{
+			"id": "f32373dd-06d8-45d1-8777-3b1411bcb30a",
+			"name": "Hurkyl's Recall",
+			"colors": "U",
+			"rarity": "rare",
+			"rarity_app": "u1",
+			"cmc": 2,
+			"type": "Instant"
+		},
+		{
+			"id": "e48bc89e-6da5-43da-b4e0-60d5f850199c",
+			"name": "Power Artifact",
+			"colors": "U",
+			"rarity": "uncommon",
+			"rarity_app": "u3",
+			"cmc": 2,
+			"type": "Enchantment — Aura"
+		},
+		{
+			"id": "1aa2d27b-cc25-4baa-86f4-4db45b30e2a4",
+			"name": "Reconstruction",
+			"colors": "U",
+			"rarity": "common",
+			"rarity_app": "c4",
+			"cmc": 1,
+			"type": "Sorcery"
+		},
+		{
+			"id": "b4ff60ce-073c-46b8-807c-8b40467b960c",
+			"name": "Sage of Lat-Nam",
+			"colors": "U",
+			"rarity": "common",
+			"rarity_app": "c4",
+			"cmc": 2,
+			"type": "Creature — Human Artificer"
+		},
+		{
+			"id": "6eab6765-eba3-4844-81ca-ae37a6e903df",
+			"name": "Transmute Artifact",
+			"colors": "U",
+			"rarity": "uncommon",
+			"rarity_app": "u3",
+			"cmc": 2,
+			"type": "Sorcery"
+		},
+		{
+			"id": "587d6ac8-fad8-49e0-862e-636e06628ff9",
+			"name": "Artifact Possession",
+			"colors": "B",
+			"rarity": "common",
+			"rarity_app": "c4",
+			"cmc": 3,
+			"type": "Enchantment — Aura"
+		},
+		{
+			"id": "1f372950-6693-4838-80ef-8fd9aa3e0349",
+			"name": "Gate to Phyrexia",
+			"colors": "B",
+			"rarity": "uncommon",
+			"rarity_app": "u3",
+			"cmc": 2,
+			"type": "Enchantment"
+		},
+		{
+			"id": "a2f6ef2f-a3a2-4e1f-b7eb-59abc8414114",
+			"name": "Haunting Wind",
+			"colors": "B",
+			"rarity": "uncommon",
+			"rarity_app": "u3",
+			"cmc": 4,
+			"type": "Enchantment"
+		},
+		{
+			"id": "21a985a9-5612-4844-982e-fd1aa6249770",
+			"name": "Phyrexian Gremlins",
+			"colors": "B",
+			"rarity": "common",
+			"rarity_app": "c4",
+			"cmc": 3,
+			"type": "Creature — Gremlin"
+		},
+		{
+			"id": "c9fd4054-42fc-4f95-a6f7-369a5da43dd5",
+			"name": "Priest of Yawgmoth",
+			"colors": "B",
+			"rarity": "common",
+			"rarity_app": "c4",
+			"cmc": 2,
+			"type": "Creature — Human Cleric"
+		},
+		{
+			"id": "5149ffff-d38f-458e-bcfa-a4b6b332a0b4",
+			"name": "Xenic Poltergeist",
+			"colors": "B",
+			"rarity": "uncommon",
+			"rarity_app": "u3",
+			"cmc": 3,
+			"type": "Creature — Spirit"
+		},
+		{
+			"id": "04bbd231-0d5f-4cbf-92a7-10d2c5c4b82c",
+			"name": "Yawgmoth Demon",
+			"colors": "B",
+			"rarity": "rare",
+			"rarity_app": "u1",
+			"cmc": 6,
+			"type": "Creature — Demon"
+		},
+		{
+			"id": "1506d99d-7b2e-4101-84a5-c950dadb263a",
+			"name": "Artifact Blast",
+			"colors": "R",
+			"rarity": "common",
+			"rarity_app": "c4",
+			"cmc": 1,
+			"type": "Instant"
+		},
+		{
+			"id": "2249fc40-4412-48fd-800a-7ea3678aee3f",
+			"name": "Atog",
+			"colors": "R",
+			"rarity": "common",
+			"rarity_app": "c4",
+			"cmc": 2,
+			"type": "Creature — Atog"
+		},
+		{
+			"id": "ffd7eb90-ae95-49df-898a-9510187bce1c",
+			"name": "Detonate",
+			"colors": "R",
+			"rarity": "uncommon",
+			"rarity_app": "u3",
+			"cmc": 1,
+			"type": "Sorcery"
+		},
+		{
+			"id": "0848d94a-2704-460f-986b-b192dd6d26b7",
+			"name": "Dwarven Weaponsmith",
+			"colors": "R",
+			"rarity": "uncommon",
+			"rarity_app": "u3",
+			"cmc": 2,
+			"type": "Creature — Dwarf Artificer"
+		},
+		{
+			"id": "6669d96e-9a7b-4427-a477-f4e76831f593",
+			"name": "Goblin Artisans",
+			"colors": "R",
+			"rarity": "uncommon",
+			"rarity_app": "u3",
+			"cmc": 1,
+			"type": "Creature — Goblin Artificer"
+		},
+		{
+			"id": "5e34fc6b-5f00-4a22-9ee2-afc1caf99961",
+			"name": "Orcish Mechanics",
+			"colors": "R",
+			"rarity": "common",
+			"rarity_app": "c4",
+			"cmc": 3,
+			"type": "Creature — Orc"
+		},
+		{
+			"id": "0987461a-45c0-4956-8627-cd27a7e038d0",
+			"name": "Shatterstorm",
+			"colors": "R",
+			"rarity": "rare",
+			"rarity_app": "u1",
+			"cmc": 4,
+			"type": "Sorcery"
+		},
+		{
+			"id": "5712e87a-2381-4f5b-a853-6973841f9bf1",
+			"name": "Argothian Pixies",
+			"colors": "G",
+			"rarity": "common",
+			"rarity_app": "c4",
+			"cmc": 2,
+			"type": "Creature — Faerie"
+		},
+		{
+			"id": "8db8882e-4db6-4e3c-9e9e-8c71d557a071",
+			"name": "Argothian Treefolk",
+			"colors": "G",
+			"rarity": "common",
+			"rarity_app": "c4",
+			"cmc": 5,
+			"type": "Creature — Treefolk"
+		},
+		{
+			"id": "f8a130dc-3b1f-4fae-8459-b26bb5647fec",
+			"name": "Citanul Druid",
+			"colors": "G",
+			"rarity": "uncommon",
+			"rarity_app": "u3",
+			"cmc": 2,
+			"type": "Creature — Human Druid"
+		},
+		{
+			"id": "d2101f86-8d3c-4ba8-ac42-bd3df0644280",
+			"name": "Crumble",
+			"colors": "G",
+			"rarity": "common",
+			"rarity_app": "c4",
+			"cmc": 1,
+			"type": "Instant"
+		},
+		{
+			"id": "39d763bd-b0a9-46ba-bcd2-9304063446f2",
+			"name": "Gaea's Avenger",
+			"colors": "G",
+			"rarity": "rare",
+			"rarity_app": "u1",
+			"cmc": 3,
+			"type": "Creature — Treefolk"
+		},
+		{
+			"id": "ae1d7b09-3a1f-410f-b330-04ae768b0455",
+			"name": "Powerleech",
+			"colors": "G",
+			"rarity": "uncommon",
+			"rarity_app": "u3",
+			"cmc": 2,
+			"type": "Enchantment"
+		},
+		{
+			"id": "583a53af-2e2a-4f3f-8eab-bd874c6ed80a",
+			"name": "Titania's Song",
+			"colors": "G",
+			"rarity": "uncommon",
+			"rarity_app": "u3",
+			"cmc": 4,
+			"type": "Enchantment"
+		},
+		{
+			"id": "b094f8dd-0184-41a2-9767-e848a6e4eac1",
+			"name": "Amulet of Kroog",
+			"colors": "",
+			"rarity": "common",
+			"rarity_app": "c4",
+			"cmc": 2,
+			"type": "Artifact"
+		},
+		{
+			"id": "44a31889-6a8d-450c-a73d-381a7ff28bf9",
+			"name": "Armageddon Clock",
+			"colors": "",
+			"rarity": "uncommon",
+			"rarity_app": "u2",
+			"cmc": 6,
+			"type": "Artifact"
+		},
+		{
+			"id": "cdcccb0f-ce96-453b-9e82-41d87f52e58b",
+			"name": "Ashnod's Altar",
+			"colors": "",
+			"rarity": "uncommon",
+			"rarity_app": "u2",
+			"cmc": 3,
+			"type": "Artifact"
+		},
+		{
+			"id": "aeeec853-dd3f-4ac3-8b20-c07fada8888f",
+			"name": "Ashnod's Battle Gear",
+			"colors": "",
+			"rarity": "uncommon",
+			"rarity_app": "u2",
+			"cmc": 2,
+			"type": "Artifact"
+		},
+		{
+			"id": "2aa5b289-36ba-49b1-a5ac-f23bf71f8241",
+			"name": "Ashnod's Transmogrant",
+			"colors": "",
+			"rarity": "uncommon",
+			"rarity_app": "u3",
+			"cmc": 1,
+			"type": "Artifact"
+		},
+		{
+			"id": "f7a69e35-d209-41c0-aa3c-c78414617075",
+			"name": "Battering Ram",
+			"colors": "",
+			"rarity": "common",
+			"rarity_app": "c4",
+			"cmc": 2,
+			"type": "Artifact Creature — Construct"
+		},
+		{
+			"id": "6fb10552-dd47-4f8a-ac7c-8c2b61e56736",
+			"name": "Bronze Tablet",
+			"colors": "",
+			"rarity": "rare",
+			"rarity_app": "u1",
+			"cmc": 6,
+			"type": "Artifact"
+		},
+		{
+			"id": "35a335bf-7358-460f-b7c9-1e8bc4300f64",
+			"name": "Candelabra of Tawnos",
+			"colors": "",
+			"rarity": "rare",
+			"rarity_app": "u1",
+			"cmc": 1,
+			"type": "Artifact"
+		},
+		{
+			"id": "64975352-8d35-4d02-94ac-fa0c6ee12409",
+			"name": "Clay Statue",
+			"colors": "",
+			"rarity": "common",
+			"rarity_app": "c4",
+			"cmc": 4,
+			"type": "Artifact Creature — Golem"
+		},
+		{
+			"id": "1dea8c2f-4aea-478d-aee7-cba1f74edd6c",
+			"name": "Clockwork Avian",
+			"colors": "",
+			"rarity": "rare",
+			"rarity_app": "u1",
+			"cmc": 5,
+			"type": "Artifact Creature — Bird"
+		},
+		{
+			"id": "067c44e9-1b23-42fd-9acb-daafb62c32a2",
+			"name": "Colossus of Sardia",
+			"colors": "",
+			"rarity": "rare",
+			"rarity_app": "u1",
+			"cmc": 9,
+			"type": "Artifact Creature — Golem"
+		},
+		{
+			"id": "6c6df9db-0a46-40a5-ae9d-59f47dae9056",
+			"name": "Coral Helm",
+			"colors": "",
+			"rarity": "rare",
+			"rarity_app": "u1",
+			"cmc": 3,
+			"type": "Artifact"
+		},
+		{
+			"id": "720d871d-1e7b-482e-bd1e-8ec79519fb86",
+			"name": "Cursed Rack",
+			"colors": "",
+			"rarity": "uncommon",
+			"rarity_app": "c1",
+			"cmc": 4,
+			"type": "Artifact"
+		},
+		{
+			"id": "07793a71-1106-4303-b620-e403bd378020",
+			"name": "Dragon Engine",
+			"colors": "",
+			"rarity": "common",
+			"rarity_app": "c4",
+			"cmc": 3,
+			"type": "Artifact Creature — Construct"
+		},
+		{
+			"id": "bb6af436-bcfd-4d47-a1aa-e84b587a725a",
+			"name": "Feldon's Cane",
+			"colors": "",
+			"rarity": "uncommon",
+			"rarity_app": "c1",
+			"cmc": 1,
+			"type": "Artifact"
+		},
+		{
+			"id": "856be1dd-a20b-49c2-be9d-7db76c7efd8b",
+			"name": "Golgothian Sylex",
+			"colors": "",
+			"rarity": "rare",
+			"rarity_app": "u1",
+			"cmc": 4,
+			"type": "Artifact"
+		},
+		{
+			"id": "4c7a7348-c82e-453c-975c-e5365e152a3a",
+			"name": "Grapeshot Catapult",
+			"colors": "",
+			"rarity": "common",
+			"rarity_app": "c4",
+			"cmc": 4,
+			"type": "Artifact Creature — Construct"
+		},
+		{
+			"id": "a5f23039-45ca-4c15-af50-bfd40ea26453",
+			"name": "Ivory Tower",
+			"colors": "",
+			"rarity": "uncommon",
+			"rarity_app": "u3",
+			"cmc": 1,
+			"type": "Artifact"
+		},
+		{
+			"id": "5a5b7c5a-ee63-4a1b-9a0f-fb0a309168df",
+			"name": "Jalum Tome",
+			"colors": "",
+			"rarity": "uncommon",
+			"rarity_app": "u2",
+			"cmc": 3,
+			"type": "Artifact"
+		},
+		{
+			"id": "b28ba599-5299-4831-a118-1712ada10ef6",
+			"name": "Mightstone",
+			"colors": "",
+			"rarity": "uncommon",
+			"rarity_app": "u3",
+			"cmc": 4,
+			"type": "Artifact"
+		},
+		{
+			"id": "107646bc-2181-49f4-8821-1eaa46291855",
+			"name": "Millstone",
+			"colors": "",
+			"rarity": "uncommon",
+			"rarity_app": "u3",
+			"cmc": 2,
+			"type": "Artifact"
+		},
+		{
+			"id": "8f6b4652-a1d4-418f-a89b-6a977a920a9e",
+			"name": "Mishra's War Machine",
+			"colors": "",
+			"rarity": "rare",
+			"rarity_app": "u1",
+			"cmc": 7,
+			"type": "Artifact Creature — Juggernaut"
+		},
+		{
+			"id": "1ba61ccd-4429-4f7c-b9f3-30867878d88e",
+			"name": "Obelisk of Undoing",
+			"colors": "",
+			"rarity": "rare",
+			"rarity_app": "u1",
+			"cmc": 1,
+			"type": "Artifact"
+		},
+		{
+			"id": "d77fe8e2-8438-473e-ace5-01baddd2c4ed",
+			"name": "Onulet",
+			"colors": "",
+			"rarity": "uncommon",
+			"rarity_app": "u3",
+			"cmc": 3,
+			"type": "Artifact Creature — Construct"
+		},
+		{
+			"id": "59cc9bdb-7cf2-4795-bac7-ffff605c9eb0",
+			"name": "Ornithopter",
+			"colors": "",
+			"rarity": "common",
+			"rarity_app": "c4",
+			"cmc": 0,
+			"type": "Artifact Creature — Thopter"
+		},
+		{
+			"id": "ab9d0e3f-cf7c-41f8-bcd7-bb08ea8cc2f8",
+			"name": "Primal Clay",
+			"colors": "",
+			"rarity": "uncommon",
+			"rarity_app": "u3",
+			"cmc": 4,
+			"type": "Artifact Creature — Shapeshifter"
+		},
+		{
+			"id": "0fd7c711-3ff4-4691-914f-242e6737066c",
+			"name": "Rakalite",
+			"colors": "",
+			"rarity": "uncommon",
+			"rarity_app": "u3",
+			"cmc": 6,
+			"type": "Artifact"
+		},
+		{
+			"id": "d5bb2093-78a8-4a6c-abe7-9a5afc181ec5",
+			"name": "Rocket Launcher",
+			"colors": "",
+			"rarity": "uncommon",
+			"rarity_app": "u3",
+			"cmc": 4,
+			"type": "Artifact"
+		},
+		{
+			"id": "cc278af4-b60d-41b7-b9d7-36c8aefca1a7",
+			"name": "Shapeshifter",
+			"colors": "",
+			"rarity": "rare",
+			"rarity_app": "u1",
+			"cmc": 6,
+			"type": "Artifact Creature — Shapeshifter"
+		},
+		{
+			"id": "a6bf858d-bba9-4a16-9045-55384b1de633",
+			"name": "Staff of Zegon",
+			"colors": "",
+			"rarity": "common",
+			"rarity_app": "c4",
+			"cmc": 4,
+			"type": "Artifact"
+		},
+		{
+			"id": "a64d4f93-0c04-4078-aec0-7e9de92f260f",
+			"name": "Su-Chi",
+			"colors": "",
+			"rarity": "uncommon",
+			"rarity_app": "u3",
+			"cmc": 4,
+			"type": "Artifact Creature — Construct"
+		},
+		{
+			"id": "6d7a2718-301f-4191-b348-0c44c7c07d43",
+			"name": "Tablet of Epityr",
+			"colors": "",
+			"rarity": "common",
+			"rarity_app": "c4",
+			"cmc": 1,
+			"type": "Artifact"
+		},
+		{
+			"id": "c27bc1de-8246-4dc8-af51-ec21def9e226",
+			"name": "Tawnos's Coffin",
+			"colors": "",
+			"rarity": "rare",
+			"rarity_app": "u1",
+			"cmc": 4,
+			"type": "Artifact"
+		},
+		{
+			"id": "978f09dd-121a-4da5-ba16-5c03fbdce084",
+			"name": "Tawnos's Wand",
+			"colors": "",
+			"rarity": "uncommon",
+			"rarity_app": "u3",
+			"cmc": 4,
+			"type": "Artifact"
+		},
+		{
+			"id": "3035cead-a501-4204-9154-5fd648577d32",
+			"name": "Tawnos's Weaponry",
+			"colors": "",
+			"rarity": "uncommon",
+			"rarity_app": "u3",
+			"cmc": 2,
+			"type": "Artifact"
+		},
+		{
+			"id": "23eb19f9-2e8f-4bf0-9bf8-868e6da70e2d",
+			"name": "Tetravus",
+			"colors": "",
+			"rarity": "rare",
+			"rarity_app": "u1",
+			"cmc": 6,
+			"type": "Artifact Creature — Construct"
+		},
+		{
+			"id": "ec0686ba-1277-4412-a397-7a6227808311",
+			"name": "The Rack",
+			"colors": "",
+			"rarity": "uncommon",
+			"rarity_app": "u3",
+			"cmc": 1,
+			"type": "Artifact"
+		},
+		{
+			"id": "a79c99e1-722a-44b6-8fa3-2be3f0c193d8",
+			"name": "Triskelion",
+			"colors": "",
+			"rarity": "rare",
+			"rarity_app": "u1",
+			"cmc": 6,
+			"type": "Artifact Creature — Construct"
+		},
+		{
+			"id": "448e1811-fb16-4390-ac22-b7066a4a019c",
+			"name": "Urza's Avenger",
+			"colors": "",
+			"rarity": "rare",
+			"rarity_app": "u1",
+			"cmc": 6,
+			"type": "Artifact Creature — Shapeshifter"
+		},
+		{
+			"id": "f3728537-86d3-42be-9046-90bba1bfafc1",
+			"name": "Urza's Chalice",
+			"colors": "",
+			"rarity": "common",
+			"rarity_app": "c4",
+			"cmc": 1,
+			"type": "Artifact"
+		},
+		{
+			"id": "438f0c61-a61d-4a9e-b21f-4e86420c7913",
+			"name": "Urza's Miter",
+			"colors": "",
+			"rarity": "rare",
+			"rarity_app": "u1",
+			"cmc": 3,
+			"type": "Artifact"
+		},
+		{
+			"id": "b1dda179-c49a-4995-ba5a-db93ac43dbe7",
+			"name": "Wall of Spears",
+			"colors": "",
+			"rarity": "uncommon",
+			"rarity_app": "u3",
+			"cmc": 3,
+			"type": "Artifact Creature — Wall"
+		},
+		{
+			"id": "46adf48f-99d2-440e-9129-794584c1ea21",
+			"name": "Weakstone",
+			"colors": "",
+			"rarity": "uncommon",
+			"rarity_app": "u3",
+			"cmc": 4,
+			"type": "Artifact"
+		},
+		{
+			"id": "27cf53e3-76f6-4831-800e-1259394d779d",
+			"name": "Yotian Soldier",
+			"colors": "",
+			"rarity": "common",
+			"rarity_app": "c4",
+			"cmc": 3,
+			"type": "Artifact Creature — Soldier"
+		},
+		{
+			"id": "a696c5b6-f216-454d-8029-74e84bbd1428",
+			"name": "Mishra's Factory",
+			"colors": "",
+			"rarity": "uncommon",
+			"rarity_app": "c1",
+			"cmc": 0,
+			"type": "Land"
+		},
+		{
+			"id": "4047df9c-335c-4c1a-968d-00f40e2e7386",
+			"name": "Mishra's Factory",
+			"colors": "",
+			"rarity": "rare",
+			"rarity_app": "u1",
+			"cmc": 0,
+			"type": "Land"
+		},
+		{
+			"id": "c44669b2-bf9a-41c3-91c7-d845b0061fbf",
+			"name": "Mishra's Factory",
+			"colors": "",
+			"rarity": "rare",
+			"rarity_app": "u1",
+			"cmc": 0,
+			"type": "Land"
+		},
+		{
+			"id": "ac09a506-427f-4636-bcfd-b40f8d511905",
+			"name": "Mishra's Factory",
+			"colors": "",
+			"rarity": "rare",
+			"rarity_app": "u1",
+			"cmc": 0,
+			"type": "Land"
+		},
+		{
+			"id": "135de5c7-6ac9-4b68-8f1a-97f120a4b125",
+			"name": "Mishra's Workshop",
+			"colors": "",
+			"rarity": "rare",
+			"rarity_app": "u1",
+			"cmc": 0,
+			"type": "Land"
+		},
+		{
+			"id": "e7880157-7f27-4f1b-9cdc-ab36a6252376",
+			"name": "Strip Mine",
+			"colors": "",
+			"rarity": "uncommon",
+			"rarity_app": "c1",
+			"cmc": 0,
+			"type": "Land"
+		},
+		{
+			"id": "a48bd745-5e9f-4807-97b0-29222a5b838d",
+			"name": "Strip Mine",
+			"colors": "",
+			"rarity": "rare",
+			"rarity_app": "u1",
+			"cmc": 0,
+			"type": "Land"
+		},
+		{
+			"id": "917e98db-a0c4-4836-9e4b-3fda142eedf6",
+			"name": "Strip Mine",
+			"colors": "",
+			"rarity": "rare",
+			"rarity_app": "u1",
+			"cmc": 0,
+			"type": "Land"
+		},
+		{
+			"id": "e0f6a92f-edd8-4cb6-be91-f3ec229b20a6",
+			"name": "Strip Mine",
+			"colors": "",
+			"rarity": "rare",
+			"rarity_app": "u1",
+			"cmc": 0,
+			"type": "Land"
+		},
+		{
+			"id": "ddf85792-470b-4b42-99ac-9cb43a575523",
+			"name": "Urza's Mine",
+			"colors": "",
+			"rarity": "uncommon",
+			"rarity_app": "c1",
+			"cmc": 0,
+			"type": "Land — Urza’s Mine"
+		},
+		{
+			"id": "27886da1-9161-4bed-81b5-06da21a25f91",
+			"name": "Urza's Mine",
+			"colors": "",
+			"rarity": "uncommon",
+			"rarity_app": "c1",
+			"cmc": 0,
+			"type": "Land — Urza’s Mine"
+		},
+		{
+			"id": "da68a5c0-84fe-4a8f-93b2-790eca3cc95c",
+			"name": "Urza's Mine",
+			"colors": "",
+			"rarity": "common",
+			"rarity_app": "c2",
+			"cmc": 0,
+			"type": "Land — Urza’s Mine"
+		},
+		{
+			"id": "cd8617d2-a0e9-4fb4-85da-2c7e385be3f6",
+			"name": "Urza's Mine",
+			"colors": "",
+			"rarity": "common",
+			"rarity_app": "c2",
+			"cmc": 0,
+			"type": "Land — Urza’s Mine"
+		},
+		{
+			"id": "94896e0b-859c-47e4-bf27-35ed37b841e0",
+			"name": "Urza's Power Plant",
+			"colors": "",
+			"rarity": "common",
+			"rarity_app": "c2",
+			"cmc": 0,
+			"type": "Land — Urza’s Power-Plant"
+		},
+		{
+			"id": "e237d921-6d84-402e-b5e3-6bbdb3028f57",
+			"name": "Urza's Power Plant",
+			"colors": "",
+			"rarity": "uncommon",
+			"rarity_app": "c1",
+			"cmc": 0,
+			"type": "Land — Urza’s Power-Plant"
+		},
+		{
+			"id": "5cc02459-83ae-4b6c-85a1-26eeaf7a2ee7",
+			"name": "Urza's Power Plant",
+			"colors": "",
+			"rarity": "common",
+			"rarity_app": "c2",
+			"cmc": 0,
+			"type": "Land — Urza’s Power-Plant"
+		},
+		{
+			"id": "b0bbe643-3e07-4541-a2e6-45c63a5133cf",
+			"name": "Urza's Power Plant",
+			"colors": "",
+			"rarity": "uncommon",
+			"rarity_app": "c1",
+			"cmc": 0,
+			"type": "Land — Urza’s Power-Plant"
+		},
+		{
+			"id": "8ed85655-fc59-4a57-bcf9-75e1899dff78",
+			"name": "Urza's Tower",
+			"colors": "",
+			"rarity": "common",
+			"rarity_app": "c2",
+			"cmc": 0,
+			"type": "Land — Urza’s Tower"
+		},
+		{
+			"id": "6aba1f0f-73b0-4898-8d07-43322e43d74e",
+			"name": "Urza's Tower",
+			"colors": "",
+			"rarity": "uncommon",
+			"rarity_app": "c1",
+			"cmc": 0,
+			"type": "Land — Urza’s Tower"
+		},
+		{
+			"id": "4a03554a-0ee7-4106-b3e4-4bc51f48032d",
+			"name": "Urza's Tower",
+			"colors": "",
+			"rarity": "uncommon",
+			"rarity_app": "c1",
+			"cmc": 0,
+			"type": "Land — Urza’s Tower"
+		},
+		{
+			"id": "cc78f2e5-c02b-4f58-8510-660ca27d9a71",
+			"name": "Urza's Tower",
+			"colors": "",
+			"rarity": "uncommon",
+			"rarity_app": "c1",
+			"cmc": 0,
+			"type": "Land — Urza’s Tower"
+		}
+	]
+}

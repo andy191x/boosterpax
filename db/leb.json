@@ -1,0 +1,2426 @@
+{
+	"set": {
+		"code": "leb",
+		"name": "Limited Edition Beta",
+		"released_at": "1993-10-04",
+		"card_count": 302
+	},
+	"card_array": [
+		{
+			"id": "5c5b4738-20bb-465d-b67e-c6146dce9d0b",
+			"name": "Animate Wall",
+			"colors": "W",
+			"rarity": "rare",
+			"cmc": 1,
+			"type": "Enchantment — Aura"
+		},
+		{
+			"id": "02c4edfa-7822-40bc-88d1-d051b3a64df1",
+			"name": "Armageddon",
+			"colors": "W",
+			"rarity": "rare",
+			"cmc": 4,
+			"type": "Sorcery"
+		},
+		{
+			"id": "0f2c32a0-ee97-4239-94e3-aabab91dab83",
+			"name": "Balance",
+			"colors": "W",
+			"rarity": "rare",
+			"cmc": 2,
+			"type": "Sorcery"
+		},
+		{
+			"id": "f62c68d0-9b1e-4abe-991d-a645effeb676",
+			"name": "Benalish Hero",
+			"colors": "W",
+			"rarity": "common",
+			"cmc": 1,
+			"type": "Creature — Human Soldier"
+		},
+		{
+			"id": "30d5d3fe-5741-40f7-8f45-dadb818d79b0",
+			"name": "Black Ward",
+			"colors": "W",
+			"rarity": "uncommon",
+			"cmc": 1,
+			"type": "Enchantment — Aura"
+		},
+		{
+			"id": "f78aef20-e3bb-484c-9fa1-d2859408b04a",
+			"name": "Blaze of Glory",
+			"colors": "W",
+			"rarity": "rare",
+			"cmc": 1,
+			"type": "Instant"
+		},
+		{
+			"id": "bcd624c8-f06e-4181-865e-6a14ffc9302f",
+			"name": "Blessing",
+			"colors": "W",
+			"rarity": "rare",
+			"cmc": 2,
+			"type": "Enchantment — Aura"
+		},
+		{
+			"id": "aafae6f4-0880-4532-9224-44545bfa5eb4",
+			"name": "Blue Ward",
+			"colors": "W",
+			"rarity": "uncommon",
+			"cmc": 1,
+			"type": "Enchantment — Aura"
+		},
+		{
+			"id": "a8ba6b09-b24f-40cb-b219-ad8a1fd6692c",
+			"name": "Castle",
+			"colors": "W",
+			"rarity": "uncommon",
+			"cmc": 4,
+			"type": "Enchantment"
+		},
+		{
+			"id": "fa47b4cd-8da4-4544-b011-ba92b7009203",
+			"name": "Circle of Protection: Black",
+			"colors": "W",
+			"rarity": "common",
+			"cmc": 2,
+			"type": "Enchantment"
+		},
+		{
+			"id": "07a86eb1-f6a0-4a4e-bd59-e19e22ec487d",
+			"name": "Circle of Protection: Blue",
+			"colors": "W",
+			"rarity": "common",
+			"cmc": 2,
+			"type": "Enchantment"
+		},
+		{
+			"id": "e041b0ea-4a57-4950-9f8e-72d6e6ab2968",
+			"name": "Circle of Protection: Green",
+			"colors": "W",
+			"rarity": "common",
+			"cmc": 2,
+			"type": "Enchantment"
+		},
+		{
+			"id": "5de9dc85-d566-4cb0-a2e3-1ed4e5fe2f14",
+			"name": "Circle of Protection: Red",
+			"colors": "W",
+			"rarity": "common",
+			"cmc": 2,
+			"type": "Enchantment"
+		},
+		{
+			"id": "671aca82-6c55-43ef-b452-d6a2e706a7ae",
+			"name": "Circle of Protection: White",
+			"colors": "W",
+			"rarity": "common",
+			"cmc": 2,
+			"type": "Enchantment"
+		},
+		{
+			"id": "077cf242-f866-497f-a23c-70e1b04a748e",
+			"name": "Consecrate Land",
+			"colors": "W",
+			"rarity": "uncommon",
+			"cmc": 1,
+			"type": "Enchantment — Aura"
+		},
+		{
+			"id": "4d9a5bb5-23cd-4f9a-8c8e-d009fb7bdf59",
+			"name": "Conversion",
+			"colors": "W",
+			"rarity": "uncommon",
+			"cmc": 4,
+			"type": "Enchantment"
+		},
+		{
+			"id": "2d5fbd9d-48bf-4600-8ca4-2ce2ca48128e",
+			"name": "Crusade",
+			"colors": "W",
+			"rarity": "rare",
+			"cmc": 2,
+			"type": "Enchantment"
+		},
+		{
+			"id": "b119edd8-7801-475e-943a-6cbf10f2d303",
+			"name": "Death Ward",
+			"colors": "W",
+			"rarity": "common",
+			"cmc": 1,
+			"type": "Instant"
+		},
+		{
+			"id": "9d61d0a5-7e92-4413-9121-925e1876b64d",
+			"name": "Disenchant",
+			"colors": "W",
+			"rarity": "common",
+			"cmc": 2,
+			"type": "Instant"
+		},
+		{
+			"id": "c49ecc66-dccb-4026-8c6e-0b275a635a1f",
+			"name": "Farmstead",
+			"colors": "W",
+			"rarity": "rare",
+			"cmc": 3,
+			"type": "Enchantment — Aura"
+		},
+		{
+			"id": "a488ce63-1adb-4051-9521-703bad8d02f6",
+			"name": "Green Ward",
+			"colors": "W",
+			"rarity": "uncommon",
+			"cmc": 1,
+			"type": "Enchantment — Aura"
+		},
+		{
+			"id": "9c4e8259-b369-4b59-85fa-fe9edb1887c5",
+			"name": "Guardian Angel",
+			"colors": "W",
+			"rarity": "common",
+			"cmc": 1,
+			"type": "Instant"
+		},
+		{
+			"id": "9c9f2eeb-fea5-4b33-9723-8be3c1914f63",
+			"name": "Healing Salve",
+			"colors": "W",
+			"rarity": "common",
+			"cmc": 1,
+			"type": "Instant"
+		},
+		{
+			"id": "6ab1d885-989c-4d71-8139-9e35d2f16d03",
+			"name": "Holy Armor",
+			"colors": "W",
+			"rarity": "common",
+			"cmc": 1,
+			"type": "Enchantment — Aura"
+		},
+		{
+			"id": "de989395-50bf-458a-a010-e12abe2e15a6",
+			"name": "Holy Strength",
+			"colors": "W",
+			"rarity": "common",
+			"cmc": 1,
+			"type": "Enchantment — Aura"
+		},
+		{
+			"id": "273fb2b6-3d11-4f0d-9fb0-0364353c2060",
+			"name": "Island Sanctuary",
+			"colors": "W",
+			"rarity": "rare",
+			"cmc": 2,
+			"type": "Enchantment"
+		},
+		{
+			"id": "1bea2eb6-dfae-4bdc-9ab3-b2b491c69c59",
+			"name": "Karma",
+			"colors": "W",
+			"rarity": "uncommon",
+			"cmc": 4,
+			"type": "Enchantment"
+		},
+		{
+			"id": "a7aa3a93-3765-49f0-8ff2-b6843509c34a",
+			"name": "Lance",
+			"colors": "W",
+			"rarity": "uncommon",
+			"cmc": 1,
+			"type": "Enchantment — Aura"
+		},
+		{
+			"id": "55bff46a-6725-4918-9bdf-38efaaf50236",
+			"name": "Mesa Pegasus",
+			"colors": "W",
+			"rarity": "common",
+			"cmc": 2,
+			"type": "Creature — Pegasus"
+		},
+		{
+			"id": "4ba8493c-ae69-48d1-a050-a887ae27c83f",
+			"name": "Northern Paladin",
+			"colors": "W",
+			"rarity": "rare",
+			"cmc": 4,
+			"type": "Creature — Human Knight"
+		},
+		{
+			"id": "47024d6d-dc55-4c35-b2bb-1b8bb0ee4e38",
+			"name": "Pearled Unicorn",
+			"colors": "W",
+			"rarity": "common",
+			"cmc": 3,
+			"type": "Creature — Unicorn"
+		},
+		{
+			"id": "f7bb9f31-0818-4422-8533-99a4e6845a02",
+			"name": "Personal Incarnation",
+			"colors": "W",
+			"rarity": "rare",
+			"cmc": 6,
+			"type": "Creature — Avatar Incarnation"
+		},
+		{
+			"id": "af11986e-42bd-4f54-8624-7b34b1783a40",
+			"name": "Purelace",
+			"colors": "W",
+			"rarity": "rare",
+			"cmc": 1,
+			"type": "Instant"
+		},
+		{
+			"id": "057237bb-e1e6-4bcc-8639-ca0dcdd4846c",
+			"name": "Red Ward",
+			"colors": "W",
+			"rarity": "uncommon",
+			"cmc": 1,
+			"type": "Enchantment — Aura"
+		},
+		{
+			"id": "50e3c741-5095-48a6-bd93-b9c4db265004",
+			"name": "Resurrection",
+			"colors": "W",
+			"rarity": "uncommon",
+			"cmc": 4,
+			"type": "Sorcery"
+		},
+		{
+			"id": "46cf22e4-cc5c-4723-a9cb-ae7ce7a55a1a",
+			"name": "Reverse Damage",
+			"colors": "W",
+			"rarity": "rare",
+			"cmc": 3,
+			"type": "Instant"
+		},
+		{
+			"id": "b847a2d1-5912-4f88-a68f-06790d0795dc",
+			"name": "Righteousness",
+			"colors": "W",
+			"rarity": "rare",
+			"cmc": 1,
+			"type": "Instant"
+		},
+		{
+			"id": "3fbfb106-29d8-4065-b306-51dba0ed11a4",
+			"name": "Samite Healer",
+			"colors": "W",
+			"rarity": "common",
+			"cmc": 2,
+			"type": "Creature — Human Cleric"
+		},
+		{
+			"id": "67d1945d-d228-4dc3-a593-859408b2016b",
+			"name": "Savannah Lions",
+			"colors": "W",
+			"rarity": "rare",
+			"cmc": 1,
+			"type": "Creature — Cat"
+		},
+		{
+			"id": "5669f9c8-2e94-47e2-a551-7efff317fb34",
+			"name": "Serra Angel",
+			"colors": "W",
+			"rarity": "uncommon",
+			"cmc": 5,
+			"type": "Creature — Angel"
+		},
+		{
+			"id": "255099be-c64e-4f6a-8463-4fc058d6908d",
+			"name": "Swords to Plowshares",
+			"colors": "W",
+			"rarity": "uncommon",
+			"cmc": 1,
+			"type": "Instant"
+		},
+		{
+			"id": "d8d888b7-26e2-465d-b5ee-bb2f2af5c621",
+			"name": "Veteran Bodyguard",
+			"colors": "W",
+			"rarity": "rare",
+			"cmc": 5,
+			"type": "Creature — Human"
+		},
+		{
+			"id": "be955e9a-e722-4cd7-8e3d-bab1889c255b",
+			"name": "Wall of Swords",
+			"colors": "W",
+			"rarity": "uncommon",
+			"cmc": 4,
+			"type": "Creature — Wall"
+		},
+		{
+			"id": "a231e0b8-b3e3-4f4a-8baa-c56626b01685",
+			"name": "White Knight",
+			"colors": "W",
+			"rarity": "uncommon",
+			"cmc": 2,
+			"type": "Creature — Human Knight"
+		},
+		{
+			"id": "4988dc3e-2ed8-4de3-9d1b-838003c9c9e3",
+			"name": "White Ward",
+			"colors": "W",
+			"rarity": "uncommon",
+			"cmc": 1,
+			"type": "Enchantment — Aura"
+		},
+		{
+			"id": "96dd2d61-a43d-4582-b730-71d4fac0fa23",
+			"name": "Wrath of God",
+			"colors": "W",
+			"rarity": "rare",
+			"cmc": 4,
+			"type": "Sorcery"
+		},
+		{
+			"id": "36a94a6d-26b1-4486-9444-ec366e6f4d6e",
+			"name": "Air Elemental",
+			"colors": "U",
+			"rarity": "uncommon",
+			"cmc": 5,
+			"type": "Creature — Elemental"
+		},
+		{
+			"id": "46b0a5c2-ac85-448e-9e87-12fc74fd4147",
+			"name": "Ancestral Recall",
+			"colors": "U",
+			"rarity": "rare",
+			"cmc": 1,
+			"type": "Instant"
+		},
+		{
+			"id": "cb575b27-d2ca-4d90-a650-dc670484f607",
+			"name": "Animate Artifact",
+			"colors": "U",
+			"rarity": "uncommon",
+			"cmc": 4,
+			"type": "Enchantment — Aura"
+		},
+		{
+			"id": "7f07e272-6cc7-46d6-ad5c-473d1021c179",
+			"name": "Blue Elemental Blast",
+			"colors": "U",
+			"rarity": "common",
+			"cmc": 1,
+			"type": "Instant"
+		},
+		{
+			"id": "a5dd8dbb-9538-4786-b20c-0ea2f446f323",
+			"name": "Braingeyser",
+			"colors": "U",
+			"rarity": "rare",
+			"cmc": 2,
+			"type": "Sorcery"
+		},
+		{
+			"id": "af53b5fc-c31a-4f26-93bf-0c45c1f4e1e5",
+			"name": "Clone",
+			"colors": "U",
+			"rarity": "uncommon",
+			"cmc": 4,
+			"type": "Creature — Shapeshifter"
+		},
+		{
+			"id": "133315bd-3c46-4eff-938e-4dba63631c1b",
+			"name": "Control Magic",
+			"colors": "U",
+			"rarity": "uncommon",
+			"cmc": 4,
+			"type": "Enchantment — Aura"
+		},
+		{
+			"id": "e24fe07d-1328-4165-b7a0-622b60cec481",
+			"name": "Copy Artifact",
+			"colors": "U",
+			"rarity": "rare",
+			"cmc": 2,
+			"type": "Enchantment"
+		},
+		{
+			"id": "9e11bf7c-f439-4529-b29a-d711359807ef",
+			"name": "Counterspell",
+			"colors": "U",
+			"rarity": "uncommon",
+			"cmc": 2,
+			"type": "Instant"
+		},
+		{
+			"id": "4ce48b24-a65e-42d9-a147-8f89028fada7",
+			"name": "Creature Bond",
+			"colors": "U",
+			"rarity": "common",
+			"cmc": 2,
+			"type": "Enchantment — Aura"
+		},
+		{
+			"id": "9672caeb-5cf8-4b40-a371-005c911a67d9",
+			"name": "Drain Power",
+			"colors": "U",
+			"rarity": "rare",
+			"cmc": 2,
+			"type": "Sorcery"
+		},
+		{
+			"id": "644288e8-e0b1-418f-b105-01a557a3e497",
+			"name": "Feedback",
+			"colors": "U",
+			"rarity": "uncommon",
+			"cmc": 3,
+			"type": "Enchantment — Aura"
+		},
+		{
+			"id": "24584ffa-8ed1-4930-b6d8-ac1d02738ed0",
+			"name": "Flight",
+			"colors": "U",
+			"rarity": "common",
+			"cmc": 1,
+			"type": "Enchantment — Aura"
+		},
+		{
+			"id": "dde97b8f-7c10-48d3-8ae2-9f86158973ec",
+			"name": "Invisibility",
+			"colors": "U",
+			"rarity": "common",
+			"cmc": 2,
+			"type": "Enchantment — Aura"
+		},
+		{
+			"id": "e51e8a6e-1da8-4e6f-8433-9f0695926f04",
+			"name": "Jump",
+			"colors": "U",
+			"rarity": "common",
+			"cmc": 1,
+			"type": "Instant"
+		},
+		{
+			"id": "74e7775b-b03b-4fc0-bcd9-3681cce5e70c",
+			"name": "Lifetap",
+			"colors": "U",
+			"rarity": "uncommon",
+			"cmc": 2,
+			"type": "Enchantment"
+		},
+		{
+			"id": "27d7ac1f-2243-4c70-95a4-2b7343c8d92d",
+			"name": "Lord of Atlantis",
+			"colors": "U",
+			"rarity": "rare",
+			"cmc": 2,
+			"type": "Creature — Merfolk"
+		},
+		{
+			"id": "0aa81390-4e0b-484b-a5be-a9449cd41860",
+			"name": "Magical Hack",
+			"colors": "U",
+			"rarity": "rare",
+			"cmc": 1,
+			"type": "Instant"
+		},
+		{
+			"id": "083f76c8-3e6d-4de5-b408-2f2394faed5c",
+			"name": "Mahamoti Djinn",
+			"colors": "U",
+			"rarity": "rare",
+			"cmc": 6,
+			"type": "Creature — Djinn"
+		},
+		{
+			"id": "4da4f9a8-024b-4707-b300-ccb11bd87cea",
+			"name": "Mana Short",
+			"colors": "U",
+			"rarity": "rare",
+			"cmc": 3,
+			"type": "Instant"
+		},
+		{
+			"id": "cca142de-906d-4143-8f77-4acea1f1e6b1",
+			"name": "Merfolk of the Pearl Trident",
+			"colors": "U",
+			"rarity": "common",
+			"cmc": 1,
+			"type": "Creature — Merfolk"
+		},
+		{
+			"id": "b0c6d792-0abb-474e-8c05-c4e843242ef0",
+			"name": "Phantasmal Forces",
+			"colors": "U",
+			"rarity": "uncommon",
+			"cmc": 4,
+			"type": "Creature — Illusion"
+		},
+		{
+			"id": "9c29369c-d909-45a7-be70-3181ddac9728",
+			"name": "Phantasmal Terrain",
+			"colors": "U",
+			"rarity": "common",
+			"cmc": 2,
+			"type": "Enchantment — Aura"
+		},
+		{
+			"id": "b0782e90-383b-4aed-8fa0-99c8cf8b2cec",
+			"name": "Phantom Monster",
+			"colors": "U",
+			"rarity": "uncommon",
+			"cmc": 4,
+			"type": "Creature — Illusion"
+		},
+		{
+			"id": "925ce0a7-ae09-4220-9e67-314dbc231c94",
+			"name": "Pirate Ship",
+			"colors": "U",
+			"rarity": "rare",
+			"cmc": 5,
+			"type": "Creature — Human Pirate"
+		},
+		{
+			"id": "86fdfb7b-1bcf-485a-be70-0130fc1fceef",
+			"name": "Power Leak",
+			"colors": "U",
+			"rarity": "common",
+			"cmc": 2,
+			"type": "Enchantment — Aura"
+		},
+		{
+			"id": "954b04e3-861a-45c9-8897-9cb4a99f04c3",
+			"name": "Power Sink",
+			"colors": "U",
+			"rarity": "common",
+			"cmc": 1,
+			"type": "Instant"
+		},
+		{
+			"id": "c420abf2-05ec-4623-8a6c-353736a4edeb",
+			"name": "Prodigal Sorcerer",
+			"colors": "U",
+			"rarity": "common",
+			"cmc": 3,
+			"type": "Creature — Human Wizard"
+		},
+		{
+			"id": "73b6b789-00c5-4d72-8fb3-6808bfbf0144",
+			"name": "Psionic Blast",
+			"colors": "U",
+			"rarity": "uncommon",
+			"cmc": 3,
+			"type": "Instant"
+		},
+		{
+			"id": "e5c8a81f-bf05-4504-ac87-4fd4b41e88c1",
+			"name": "Psychic Venom",
+			"colors": "U",
+			"rarity": "common",
+			"cmc": 2,
+			"type": "Enchantment — Aura"
+		},
+		{
+			"id": "11b21f91-51fd-407d-bab2-63c11f23b680",
+			"name": "Sea Serpent",
+			"colors": "U",
+			"rarity": "common",
+			"cmc": 6,
+			"type": "Creature — Serpent"
+		},
+		{
+			"id": "00ce03f3-ddc0-4cf3-8f07-551c960e8639",
+			"name": "Siren's Call",
+			"colors": "U",
+			"rarity": "uncommon",
+			"cmc": 1,
+			"type": "Instant"
+		},
+		{
+			"id": "fb4da609-6c08-4a18-b7d9-fb2f9b11bab2",
+			"name": "Sleight of Mind",
+			"colors": "U",
+			"rarity": "rare",
+			"cmc": 1,
+			"type": "Instant"
+		},
+		{
+			"id": "3f599b73-1d55-4acc-8931-f5ab39d1d4e9",
+			"name": "Spell Blast",
+			"colors": "U",
+			"rarity": "common",
+			"cmc": 1,
+			"type": "Instant"
+		},
+		{
+			"id": "73c76f5d-d866-4eb7-b2d2-fc6ecf982f8e",
+			"name": "Stasis",
+			"colors": "U",
+			"rarity": "rare",
+			"cmc": 2,
+			"type": "Enchantment"
+		},
+		{
+			"id": "92c14d4d-abaa-411a-aaa1-0b79fccee8c1",
+			"name": "Steal Artifact",
+			"colors": "U",
+			"rarity": "uncommon",
+			"cmc": 4,
+			"type": "Enchantment — Aura"
+		},
+		{
+			"id": "fc2b2b9e-5abf-4c41-a85c-ef95e6ab84d6",
+			"name": "Thoughtlace",
+			"colors": "U",
+			"rarity": "rare",
+			"cmc": 1,
+			"type": "Instant"
+		},
+		{
+			"id": "54992fda-45a9-4ed1-b380-34d167feec90",
+			"name": "Time Walk",
+			"colors": "U",
+			"rarity": "rare",
+			"cmc": 2,
+			"type": "Sorcery"
+		},
+		{
+			"id": "09f1958a-50cc-43cc-80e1-988800e44ca8",
+			"name": "Timetwister",
+			"colors": "U",
+			"rarity": "rare",
+			"cmc": 3,
+			"type": "Sorcery"
+		},
+		{
+			"id": "34bd24da-f156-494e-86cb-80707863e40b",
+			"name": "Twiddle",
+			"colors": "U",
+			"rarity": "common",
+			"cmc": 1,
+			"type": "Instant"
+		},
+		{
+			"id": "686843c8-8c8a-4af6-bca8-e7f7583cc886",
+			"name": "Unsummon",
+			"colors": "U",
+			"rarity": "common",
+			"cmc": 1,
+			"type": "Instant"
+		},
+		{
+			"id": "d18e952b-ab4d-4f90-bf5e-4db490e4e203",
+			"name": "Vesuvan Doppelganger",
+			"colors": "U",
+			"rarity": "rare",
+			"cmc": 5,
+			"type": "Creature — Shapeshifter"
+		},
+		{
+			"id": "ca669988-e009-4b3e-af20-ee5885554d34",
+			"name": "Volcanic Eruption",
+			"colors": "U",
+			"rarity": "rare",
+			"cmc": 3,
+			"type": "Sorcery"
+		},
+		{
+			"id": "71904b59-55dd-4074-9d50-c5bb0fb7266f",
+			"name": "Wall of Air",
+			"colors": "U",
+			"rarity": "uncommon",
+			"cmc": 3,
+			"type": "Creature — Wall"
+		},
+		{
+			"id": "34887689-0adb-4ead-87a5-1d8fd77b6278",
+			"name": "Wall of Water",
+			"colors": "U",
+			"rarity": "uncommon",
+			"cmc": 3,
+			"type": "Creature — Wall"
+		},
+		{
+			"id": "66f729e2-565b-4cdb-8b6f-0a14babe5680",
+			"name": "Water Elemental",
+			"colors": "U",
+			"rarity": "uncommon",
+			"cmc": 5,
+			"type": "Creature — Elemental"
+		},
+		{
+			"id": "20d5059a-60a4-4135-863f-85a48bff8731",
+			"name": "Animate Dead",
+			"colors": "B",
+			"rarity": "uncommon",
+			"cmc": 2,
+			"type": "Enchantment — Aura"
+		},
+		{
+			"id": "bf812f48-633c-46ab-b0c3-4819ab1b4e49",
+			"name": "Bad Moon",
+			"colors": "B",
+			"rarity": "rare",
+			"cmc": 2,
+			"type": "Enchantment"
+		},
+		{
+			"id": "1eced352-d49c-4e91-a368-52904d77a69d",
+			"name": "Black Knight",
+			"colors": "B",
+			"rarity": "uncommon",
+			"cmc": 2,
+			"type": "Creature — Human Knight"
+		},
+		{
+			"id": "da26289f-e0e6-4aae-8782-ebdbabf39819",
+			"name": "Bog Wraith",
+			"colors": "B",
+			"rarity": "uncommon",
+			"cmc": 4,
+			"type": "Creature — Wraith"
+		},
+		{
+			"id": "62f96e43-aebd-4de2-969a-37cd1d62f127",
+			"name": "Contract from Below",
+			"colors": "B",
+			"rarity": "rare",
+			"cmc": 1,
+			"type": "Sorcery"
+		},
+		{
+			"id": "1eea8122-00c2-4d00-b87b-12eea86b16ba",
+			"name": "Cursed Land",
+			"colors": "B",
+			"rarity": "uncommon",
+			"cmc": 4,
+			"type": "Enchantment — Aura"
+		},
+		{
+			"id": "0690f724-eb95-416b-b064-f1239e2a30e8",
+			"name": "Dark Ritual",
+			"colors": "B",
+			"rarity": "common",
+			"cmc": 1,
+			"type": "Instant"
+		},
+		{
+			"id": "09b12bcb-a935-48be-a5e8-abbb890e91ca",
+			"name": "Darkpact",
+			"colors": "B",
+			"rarity": "rare",
+			"cmc": 3,
+			"type": "Sorcery"
+		},
+		{
+			"id": "c942a9af-e449-4f10-916c-6eb9e944de6a",
+			"name": "Deathgrip",
+			"colors": "B",
+			"rarity": "uncommon",
+			"cmc": 2,
+			"type": "Enchantment"
+		},
+		{
+			"id": "e16fc59a-17da-462a-86ea-31f8a9ac18a1",
+			"name": "Deathlace",
+			"colors": "B",
+			"rarity": "rare",
+			"cmc": 1,
+			"type": "Instant"
+		},
+		{
+			"id": "60f37eac-e8fa-48d3-b936-74461ea1853c",
+			"name": "Demonic Attorney",
+			"colors": "B",
+			"rarity": "rare",
+			"cmc": 3,
+			"type": "Sorcery"
+		},
+		{
+			"id": "dc20c19b-7216-4f23-a3bb-70d4dcd3865e",
+			"name": "Demonic Hordes",
+			"colors": "B",
+			"rarity": "rare",
+			"cmc": 6,
+			"type": "Creature — Demon"
+		},
+		{
+			"id": "a5e571ef-1645-4584-ab53-e7ea5d443dea",
+			"name": "Demonic Tutor",
+			"colors": "B",
+			"rarity": "uncommon",
+			"cmc": 2,
+			"type": "Sorcery"
+		},
+		{
+			"id": "9fbc6761-c4fc-4b4c-afb5-94ad4d21bc05",
+			"name": "Drain Life",
+			"colors": "B",
+			"rarity": "common",
+			"cmc": 2,
+			"type": "Sorcery"
+		},
+		{
+			"id": "b1f3a1b9-d192-49d9-87bb-ca50e99edbd1",
+			"name": "Drudge Skeletons",
+			"colors": "B",
+			"rarity": "common",
+			"cmc": 2,
+			"type": "Creature — Skeleton"
+		},
+		{
+			"id": "9e995f4b-efd3-4ac7-8fec-adb913294815",
+			"name": "Evil Presence",
+			"colors": "B",
+			"rarity": "uncommon",
+			"cmc": 1,
+			"type": "Enchantment — Aura"
+		},
+		{
+			"id": "67830531-970a-4339-8673-40954376455d",
+			"name": "Fear",
+			"colors": "B",
+			"rarity": "common",
+			"cmc": 2,
+			"type": "Enchantment — Aura"
+		},
+		{
+			"id": "89b6a352-40f5-4d7c-b2b6-2617539a1c1c",
+			"name": "Frozen Shade",
+			"colors": "B",
+			"rarity": "common",
+			"cmc": 3,
+			"type": "Creature — Shade"
+		},
+		{
+			"id": "640770d9-c0f8-40fd-9467-ebc099a27a4b",
+			"name": "Gloom",
+			"colors": "B",
+			"rarity": "uncommon",
+			"cmc": 3,
+			"type": "Enchantment"
+		},
+		{
+			"id": "f6018459-d09b-489a-81be-933fd7d854c1",
+			"name": "Howl from Beyond",
+			"colors": "B",
+			"rarity": "common",
+			"cmc": 1,
+			"type": "Instant"
+		},
+		{
+			"id": "edcc56a0-1dc0-4261-8f9c-5a88ce83f9e9",
+			"name": "Hypnotic Specter",
+			"colors": "B",
+			"rarity": "uncommon",
+			"cmc": 3,
+			"type": "Creature — Specter"
+		},
+		{
+			"id": "e5a9c089-0aad-4c14-9bfc-c0b39c976777",
+			"name": "Lich",
+			"colors": "B",
+			"rarity": "rare",
+			"cmc": 4,
+			"type": "Enchantment"
+		},
+		{
+			"id": "24626988-81df-44c9-9a8e-ecb9f82c383b",
+			"name": "Lord of the Pit",
+			"colors": "B",
+			"rarity": "rare",
+			"cmc": 7,
+			"type": "Creature — Demon"
+		},
+		{
+			"id": "0cb6cbbe-c3e9-4d14-a6b8-fb74e6a02b33",
+			"name": "Mind Twist",
+			"colors": "B",
+			"rarity": "rare",
+			"cmc": 1,
+			"type": "Sorcery"
+		},
+		{
+			"id": "38396ae3-a48f-44c7-96bf-ea41b5aaeebc",
+			"name": "Nether Shadow",
+			"colors": "B",
+			"rarity": "rare",
+			"cmc": 2,
+			"type": "Creature — Spirit"
+		},
+		{
+			"id": "576220c3-1e6b-43f3-a47e-5e8246ee7d46",
+			"name": "Nettling Imp",
+			"colors": "B",
+			"rarity": "uncommon",
+			"cmc": 3,
+			"type": "Creature — Imp"
+		},
+		{
+			"id": "fc78dced-27d2-441a-b63b-32356bc33747",
+			"name": "Nightmare",
+			"colors": "B",
+			"rarity": "rare",
+			"cmc": 6,
+			"type": "Creature — Nightmare Horse"
+		},
+		{
+			"id": "106d8401-f0e2-461e-b8ea-16d475db98da",
+			"name": "Paralyze",
+			"colors": "B",
+			"rarity": "common",
+			"cmc": 1,
+			"type": "Enchantment — Aura"
+		},
+		{
+			"id": "1313b7e6-4acb-435a-bde5-1def5e5350ac",
+			"name": "Pestilence",
+			"colors": "B",
+			"rarity": "common",
+			"cmc": 4,
+			"type": "Enchantment"
+		},
+		{
+			"id": "995b58e6-5c69-4fdf-9c41-61cef7a610c4",
+			"name": "Plague Rats",
+			"colors": "B",
+			"rarity": "common",
+			"cmc": 3,
+			"type": "Creature — Rat"
+		},
+		{
+			"id": "0066c7a6-7775-43ba-81cd-35fbc5621bc3",
+			"name": "Raise Dead",
+			"colors": "B",
+			"rarity": "common",
+			"cmc": 1,
+			"type": "Sorcery"
+		},
+		{
+			"id": "b6e33c5e-6d99-4e7e-b611-4b271a47b4d2",
+			"name": "Royal Assassin",
+			"colors": "B",
+			"rarity": "rare",
+			"cmc": 3,
+			"type": "Creature — Human Assassin"
+		},
+		{
+			"id": "8abe7d62-6a99-4d1f-9b81-cff0485997a8",
+			"name": "Sacrifice",
+			"colors": "B",
+			"rarity": "uncommon",
+			"cmc": 1,
+			"type": "Instant"
+		},
+		{
+			"id": "a30abb09-2f80-46cf-a839-b4dac5c23dce",
+			"name": "Scathe Zombies",
+			"colors": "B",
+			"rarity": "common",
+			"cmc": 3,
+			"type": "Creature — Zombie"
+		},
+		{
+			"id": "e2bfa6bb-cf7b-4a79-83f5-178a633c499e",
+			"name": "Scavenging Ghoul",
+			"colors": "B",
+			"rarity": "uncommon",
+			"cmc": 4,
+			"type": "Creature — Zombie"
+		},
+		{
+			"id": "5fbd5fbb-f689-4ff0-8f23-17e4cb0925a2",
+			"name": "Sengir Vampire",
+			"colors": "B",
+			"rarity": "uncommon",
+			"cmc": 5,
+			"type": "Creature — Vampire"
+		},
+		{
+			"id": "5bcda143-55f8-4d02-918f-975d9090d03f",
+			"name": "Simulacrum",
+			"colors": "B",
+			"rarity": "uncommon",
+			"cmc": 2,
+			"type": "Instant"
+		},
+		{
+			"id": "52ea4387-f23c-430c-99d6-0248a4ab1713",
+			"name": "Sinkhole",
+			"colors": "B",
+			"rarity": "common",
+			"cmc": 2,
+			"type": "Sorcery"
+		},
+		{
+			"id": "58d8598b-35e5-414f-aee0-52137236f642",
+			"name": "Terror",
+			"colors": "B",
+			"rarity": "common",
+			"cmc": 2,
+			"type": "Instant"
+		},
+		{
+			"id": "1c1c781d-1f27-40e3-9d79-0ebb6677e835",
+			"name": "Unholy Strength",
+			"colors": "B",
+			"rarity": "common",
+			"cmc": 1,
+			"type": "Enchantment — Aura"
+		},
+		{
+			"id": "7930666c-12ac-420b-8ced-0e924925b075",
+			"name": "Wall of Bone",
+			"colors": "B",
+			"rarity": "uncommon",
+			"cmc": 3,
+			"type": "Creature — Skeleton Wall"
+		},
+		{
+			"id": "4a289787-2d30-4e0b-ac97-3767818d0387",
+			"name": "Warp Artifact",
+			"colors": "B",
+			"rarity": "rare",
+			"cmc": 2,
+			"type": "Enchantment — Aura"
+		},
+		{
+			"id": "16137fa6-1b5c-49e7-ad79-dda4b7019a59",
+			"name": "Weakness",
+			"colors": "B",
+			"rarity": "common",
+			"cmc": 1,
+			"type": "Enchantment — Aura"
+		},
+		{
+			"id": "4b60630c-f97c-43be-8410-53a68613b735",
+			"name": "Will-o'-the-Wisp",
+			"colors": "B",
+			"rarity": "rare",
+			"cmc": 1,
+			"type": "Creature — Spirit"
+		},
+		{
+			"id": "7d37b529-8a41-4177-abef-614f363e69d1",
+			"name": "Word of Command",
+			"colors": "B",
+			"rarity": "rare",
+			"cmc": 2,
+			"type": "Instant"
+		},
+		{
+			"id": "a1bfda92-b932-46d8-b549-e2bc2b584a17",
+			"name": "Zombie Master",
+			"colors": "B",
+			"rarity": "rare",
+			"cmc": 3,
+			"type": "Creature — Zombie"
+		},
+		{
+			"id": "8795bab7-ced2-4a1d-8c57-636bc4c0a977",
+			"name": "Burrowing",
+			"colors": "R",
+			"rarity": "uncommon",
+			"cmc": 1,
+			"type": "Enchantment — Aura"
+		},
+		{
+			"id": "d980e9c0-db88-41f9-8dbf-89f0e1ac6c20",
+			"name": "Chaoslace",
+			"colors": "R",
+			"rarity": "rare",
+			"cmc": 1,
+			"type": "Instant"
+		},
+		{
+			"id": "cfb3a6b9-a119-49c0-9baf-b552fdd00b28",
+			"name": "Disintegrate",
+			"colors": "R",
+			"rarity": "common",
+			"cmc": 1,
+			"type": "Sorcery"
+		},
+		{
+			"id": "2e009adf-aded-4d64-ba3e-ddc3448c967a",
+			"name": "Dragon Whelp",
+			"colors": "R",
+			"rarity": "uncommon",
+			"cmc": 4,
+			"type": "Creature — Dragon"
+		},
+		{
+			"id": "e552dfb6-b8a5-419d-b098-5aedc0500684",
+			"name": "Dwarven Demolition Team",
+			"colors": "R",
+			"rarity": "uncommon",
+			"cmc": 3,
+			"type": "Creature — Dwarf"
+		},
+		{
+			"id": "c0de88cf-b9e5-4611-a16f-2787d8d9d269",
+			"name": "Dwarven Warriors",
+			"colors": "R",
+			"rarity": "common",
+			"cmc": 3,
+			"type": "Creature — Dwarf Warrior"
+		},
+		{
+			"id": "c427e8cc-d908-4b88-931d-a540fc8bfe74",
+			"name": "Earth Elemental",
+			"colors": "R",
+			"rarity": "uncommon",
+			"cmc": 5,
+			"type": "Creature — Elemental"
+		},
+		{
+			"id": "e5955a9d-8a0e-4e57-9433-ed3392b2f308",
+			"name": "Earthbind",
+			"colors": "R",
+			"rarity": "common",
+			"cmc": 1,
+			"type": "Enchantment — Aura"
+		},
+		{
+			"id": "86435875-ac92-4348-b41e-19570cf62a1c",
+			"name": "Earthquake",
+			"colors": "R",
+			"rarity": "rare",
+			"cmc": 1,
+			"type": "Sorcery"
+		},
+		{
+			"id": "e4ebc485-f1b7-436d-8c90-9acf2f7d92e5",
+			"name": "False Orders",
+			"colors": "R",
+			"rarity": "common",
+			"cmc": 1,
+			"type": "Instant"
+		},
+		{
+			"id": "376cb9e5-89fb-4091-8a20-140bb6de0ef6",
+			"name": "Fire Elemental",
+			"colors": "R",
+			"rarity": "uncommon",
+			"cmc": 5,
+			"type": "Creature — Elemental"
+		},
+		{
+			"id": "a285ab2e-836e-45b0-894e-574f733cf3db",
+			"name": "Fireball",
+			"colors": "R",
+			"rarity": "common",
+			"cmc": 1,
+			"type": "Sorcery"
+		},
+		{
+			"id": "235e4321-0216-4d6a-a57b-72ebff427b09",
+			"name": "Firebreathing",
+			"colors": "R",
+			"rarity": "common",
+			"cmc": 1,
+			"type": "Enchantment — Aura"
+		},
+		{
+			"id": "5a2a91b9-c45f-4e3d-b3c4-944493bdd86a",
+			"name": "Flashfires",
+			"colors": "R",
+			"rarity": "uncommon",
+			"cmc": 4,
+			"type": "Sorcery"
+		},
+		{
+			"id": "8144418b-e3e5-459f-8db2-f2e348fba4da",
+			"name": "Fork",
+			"colors": "R",
+			"rarity": "rare",
+			"cmc": 2,
+			"type": "Instant"
+		},
+		{
+			"id": "3fdb52dd-4fc5-4594-b53b-ea169325be0b",
+			"name": "Goblin Balloon Brigade",
+			"colors": "R",
+			"rarity": "uncommon",
+			"cmc": 1,
+			"type": "Creature — Goblin Warrior"
+		},
+		{
+			"id": "65705a8d-6bb1-4289-b8b0-8546ccc478dc",
+			"name": "Goblin King",
+			"colors": "R",
+			"rarity": "rare",
+			"cmc": 3,
+			"type": "Creature — Goblin"
+		},
+		{
+			"id": "affb57f4-273a-425c-a1b3-d0a5407f43d5",
+			"name": "Granite Gargoyle",
+			"colors": "R",
+			"rarity": "rare",
+			"cmc": 3,
+			"type": "Creature — Gargoyle"
+		},
+		{
+			"id": "41023495-d3cb-4cb0-b95c-f717480a76a5",
+			"name": "Gray Ogre",
+			"colors": "R",
+			"rarity": "common",
+			"cmc": 3,
+			"type": "Creature — Ogre"
+		},
+		{
+			"id": "4905e98f-0c5a-4ec7-b85b-dc2c3549d5d0",
+			"name": "Hill Giant",
+			"colors": "R",
+			"rarity": "common",
+			"cmc": 4,
+			"type": "Creature — Giant"
+		},
+		{
+			"id": "8ef29573-99a1-42fc-8941-2466cda2465f",
+			"name": "Hurloon Minotaur",
+			"colors": "R",
+			"rarity": "common",
+			"cmc": 3,
+			"type": "Creature — Minotaur"
+		},
+		{
+			"id": "a7be8a25-a744-426e-8e66-7fdff2789af4",
+			"name": "Ironclaw Orcs",
+			"colors": "R",
+			"rarity": "common",
+			"cmc": 2,
+			"type": "Creature — Orc"
+		},
+		{
+			"id": "b07deb9b-5b88-4658-8ae8-041568992019",
+			"name": "Keldon Warlord",
+			"colors": "R",
+			"rarity": "uncommon",
+			"cmc": 4,
+			"type": "Creature — Human Barbarian"
+		},
+		{
+			"id": "b5d3dcab-2260-479d-9ef6-dfb92d4f6061",
+			"name": "Lightning Bolt",
+			"colors": "R",
+			"rarity": "common",
+			"cmc": 1,
+			"type": "Instant"
+		},
+		{
+			"id": "b44d3087-ced3-40e8-a63b-1733b7e7f34c",
+			"name": "Mana Flare",
+			"colors": "R",
+			"rarity": "rare",
+			"cmc": 3,
+			"type": "Enchantment"
+		},
+		{
+			"id": "7c01cae0-4d61-4bf7-a145-82d9bb11d816",
+			"name": "Manabarbs",
+			"colors": "R",
+			"rarity": "rare",
+			"cmc": 4,
+			"type": "Enchantment"
+		},
+		{
+			"id": "2fbf039d-0ab9-4c42-a0a3-cbfa3ea1dd6e",
+			"name": "Mons's Goblin Raiders",
+			"colors": "R",
+			"rarity": "common",
+			"cmc": 1,
+			"type": "Creature — Goblin"
+		},
+		{
+			"id": "4d2354ee-2ce0-4adb-b48c-0e30b952e545",
+			"name": "Orcish Artillery",
+			"colors": "R",
+			"rarity": "uncommon",
+			"cmc": 3,
+			"type": "Creature — Orc Warrior"
+		},
+		{
+			"id": "f2752cf2-9a48-49a8-98ff-2e32a9121d78",
+			"name": "Orcish Oriflamme",
+			"colors": "R",
+			"rarity": "uncommon",
+			"cmc": 4,
+			"type": "Enchantment"
+		},
+		{
+			"id": "f52eb10a-a9eb-44b7-95ae-12fb551c8fa5",
+			"name": "Power Surge",
+			"colors": "R",
+			"rarity": "rare",
+			"cmc": 2,
+			"type": "Enchantment"
+		},
+		{
+			"id": "c14746bb-aa00-4be2-9740-d87f976296d2",
+			"name": "Raging River",
+			"colors": "R",
+			"rarity": "rare",
+			"cmc": 2,
+			"type": "Enchantment"
+		},
+		{
+			"id": "4fafd3f9-f7de-4d6e-8824-6b60866fc50f",
+			"name": "Red Elemental Blast",
+			"colors": "R",
+			"rarity": "common",
+			"cmc": 1,
+			"type": "Instant"
+		},
+		{
+			"id": "f1b9e3ae-c7e9-455f-abfe-220262719beb",
+			"name": "Roc of Kher Ridges",
+			"colors": "R",
+			"rarity": "rare",
+			"cmc": 4,
+			"type": "Creature — Bird"
+		},
+		{
+			"id": "c17a982d-466d-4fec-b85a-a44161e5dad5",
+			"name": "Rock Hydra",
+			"colors": "R",
+			"rarity": "rare",
+			"cmc": 2,
+			"type": "Creature — Hydra"
+		},
+		{
+			"id": "02ec317b-52a6-4490-80e5-a56826b06771",
+			"name": "Sedge Troll",
+			"colors": "R",
+			"rarity": "rare",
+			"cmc": 3,
+			"type": "Creature — Troll"
+		},
+		{
+			"id": "76ddf3f4-1305-4599-bf4c-f9e148bdda4d",
+			"name": "Shatter",
+			"colors": "R",
+			"rarity": "common",
+			"cmc": 2,
+			"type": "Instant"
+		},
+		{
+			"id": "5e64822a-6817-4e1e-8155-3e95f8e3763f",
+			"name": "Shivan Dragon",
+			"colors": "R",
+			"rarity": "rare",
+			"cmc": 6,
+			"type": "Creature — Dragon"
+		},
+		{
+			"id": "7eb0cb82-d930-43c3-a6d6-f947018d45d6",
+			"name": "Smoke",
+			"colors": "R",
+			"rarity": "rare",
+			"cmc": 2,
+			"type": "Enchantment"
+		},
+		{
+			"id": "a2b5f545-a87d-4292-880f-5cd2f6755748",
+			"name": "Stone Giant",
+			"colors": "R",
+			"rarity": "uncommon",
+			"cmc": 4,
+			"type": "Creature — Giant"
+		},
+		{
+			"id": "901831ad-1840-4287-b6a0-bea310598dc2",
+			"name": "Stone Rain",
+			"colors": "R",
+			"rarity": "common",
+			"cmc": 3,
+			"type": "Sorcery"
+		},
+		{
+			"id": "cc738025-a771-4186-b08c-7b37c0e9713b",
+			"name": "Tunnel",
+			"colors": "R",
+			"rarity": "uncommon",
+			"cmc": 1,
+			"type": "Instant"
+		},
+		{
+			"id": "30fcbb16-f8e7-4f6e-a806-541ef54aa025",
+			"name": "Two-Headed Giant of Foriys",
+			"colors": "R",
+			"rarity": "rare",
+			"cmc": 5,
+			"type": "Creature — Giant"
+		},
+		{
+			"id": "91f46e9a-6075-4fa5-8f60-f81e2024b13d",
+			"name": "Uthden Troll",
+			"colors": "R",
+			"rarity": "uncommon",
+			"cmc": 3,
+			"type": "Creature — Troll"
+		},
+		{
+			"id": "88baaea5-69ec-4756-86c2-9c9d73ca8ef1",
+			"name": "Wall of Fire",
+			"colors": "R",
+			"rarity": "uncommon",
+			"cmc": 3,
+			"type": "Creature — Wall"
+		},
+		{
+			"id": "329ba196-a107-41ac-b02a-5f8b10ecd130",
+			"name": "Wall of Stone",
+			"colors": "R",
+			"rarity": "uncommon",
+			"cmc": 3,
+			"type": "Creature — Wall"
+		},
+		{
+			"id": "9052369f-840f-438e-b86d-e2f8d6339585",
+			"name": "Wheel of Fortune",
+			"colors": "R",
+			"rarity": "rare",
+			"cmc": 3,
+			"type": "Sorcery"
+		},
+		{
+			"id": "36f7dc8e-e02a-4ceb-8767-2875f86e6811",
+			"name": "Aspect of Wolf",
+			"colors": "G",
+			"rarity": "rare",
+			"cmc": 2,
+			"type": "Enchantment — Aura"
+		},
+		{
+			"id": "88d6f431-a7ea-4508-a52c-86d33e12e4e4",
+			"name": "Berserk",
+			"colors": "G",
+			"rarity": "uncommon",
+			"cmc": 1,
+			"type": "Instant"
+		},
+		{
+			"id": "852d7a68-8682-4073-a44b-f10f5613879c",
+			"name": "Birds of Paradise",
+			"colors": "G",
+			"rarity": "rare",
+			"cmc": 1,
+			"type": "Creature — Bird"
+		},
+		{
+			"id": "2f55ff95-32a3-43ba-82e5-a5a3bc2cc9e5",
+			"name": "Camouflage",
+			"colors": "G",
+			"rarity": "uncommon",
+			"cmc": 1,
+			"type": "Instant"
+		},
+		{
+			"id": "6fa6468a-335a-467d-aef6-e537af9d5c1c",
+			"name": "Channel",
+			"colors": "G",
+			"rarity": "uncommon",
+			"cmc": 2,
+			"type": "Sorcery"
+		},
+		{
+			"id": "fc71dd0f-dffe-4671-b9e3-ddec70626688",
+			"name": "Cockatrice",
+			"colors": "G",
+			"rarity": "rare",
+			"cmc": 5,
+			"type": "Creature — Cockatrice"
+		},
+		{
+			"id": "17d5c1c7-a882-479a-9077-0784e83b462d",
+			"name": "Craw Wurm",
+			"colors": "G",
+			"rarity": "common",
+			"cmc": 6,
+			"type": "Creature — Wurm"
+		},
+		{
+			"id": "c3240d5e-b3d4-4368-b09b-c309bc935152",
+			"name": "Elvish Archers",
+			"colors": "G",
+			"rarity": "rare",
+			"cmc": 2,
+			"type": "Creature — Elf Archer"
+		},
+		{
+			"id": "f48ed192-c1a1-437a-80dd-647a616b46e3",
+			"name": "Fastbond",
+			"colors": "G",
+			"rarity": "rare",
+			"cmc": 1,
+			"type": "Enchantment"
+		},
+		{
+			"id": "f4e9597a-4489-47e9-8b15-888acb402ddd",
+			"name": "Fog",
+			"colors": "G",
+			"rarity": "common",
+			"cmc": 1,
+			"type": "Instant"
+		},
+		{
+			"id": "c25a61b3-c828-491c-868d-e4eff770c1bb",
+			"name": "Force of Nature",
+			"colors": "G",
+			"rarity": "rare",
+			"cmc": 6,
+			"type": "Creature — Elemental"
+		},
+		{
+			"id": "75a58f0b-c772-4254-8686-182d26889f9c",
+			"name": "Fungusaur",
+			"colors": "G",
+			"rarity": "rare",
+			"cmc": 4,
+			"type": "Creature — Fungus Dinosaur"
+		},
+		{
+			"id": "554362d7-97b3-4a55-9292-15e90435088d",
+			"name": "Gaea's Liege",
+			"colors": "G",
+			"rarity": "rare",
+			"cmc": 6,
+			"type": "Creature — Avatar"
+		},
+		{
+			"id": "755a45bd-8fe6-4e4d-8065-024a2836751b",
+			"name": "Giant Growth",
+			"colors": "G",
+			"rarity": "common",
+			"cmc": 1,
+			"type": "Instant"
+		},
+		{
+			"id": "52ea35ce-8aa1-4818-8ad5-7e462452f10e",
+			"name": "Giant Spider",
+			"colors": "G",
+			"rarity": "common",
+			"cmc": 4,
+			"type": "Creature — Spider"
+		},
+		{
+			"id": "e7aa2b93-0a84-4318-bf2d-58164f0a846f",
+			"name": "Grizzly Bears",
+			"colors": "G",
+			"rarity": "common",
+			"cmc": 2,
+			"type": "Creature — Bear"
+		},
+		{
+			"id": "b3939f72-1ec6-4b2c-b37e-b1ebb024bb8f",
+			"name": "Hurricane",
+			"colors": "G",
+			"rarity": "uncommon",
+			"cmc": 1,
+			"type": "Sorcery"
+		},
+		{
+			"id": "7c439c5a-b4a5-411b-9e68-fb8438ccdfb0",
+			"name": "Ice Storm",
+			"colors": "G",
+			"rarity": "uncommon",
+			"cmc": 3,
+			"type": "Sorcery"
+		},
+		{
+			"id": "58334cf9-5186-4fba-963c-fffb21f2b8de",
+			"name": "Instill Energy",
+			"colors": "G",
+			"rarity": "uncommon",
+			"cmc": 1,
+			"type": "Enchantment — Aura"
+		},
+		{
+			"id": "1d9479ae-2b42-4137-9e62-ef4d7fd17d0c",
+			"name": "Ironroot Treefolk",
+			"colors": "G",
+			"rarity": "common",
+			"cmc": 5,
+			"type": "Creature — Treefolk"
+		},
+		{
+			"id": "ced83afa-9718-4b8a-961b-394f8595c480",
+			"name": "Kudzu",
+			"colors": "G",
+			"rarity": "rare",
+			"cmc": 3,
+			"type": "Enchantment — Aura"
+		},
+		{
+			"id": "b58867ec-0b1a-4804-bc2e-1c88d338c29e",
+			"name": "Ley Druid",
+			"colors": "G",
+			"rarity": "uncommon",
+			"cmc": 3,
+			"type": "Creature — Human Druid"
+		},
+		{
+			"id": "3715abe2-5a8e-4bf4-ac02-6c755d86bb4c",
+			"name": "Lifeforce",
+			"colors": "G",
+			"rarity": "uncommon",
+			"cmc": 2,
+			"type": "Enchantment"
+		},
+		{
+			"id": "9379e159-43ac-4bd2-8b33-f3de8e20cfe0",
+			"name": "Lifelace",
+			"colors": "G",
+			"rarity": "rare",
+			"cmc": 1,
+			"type": "Instant"
+		},
+		{
+			"id": "8bbf6678-f597-407d-9a95-02bbe6c4bcf3",
+			"name": "Living Artifact",
+			"colors": "G",
+			"rarity": "rare",
+			"cmc": 1,
+			"type": "Enchantment — Aura"
+		},
+		{
+			"id": "f132acbd-53e5-430a-8f93-8b7469633c0e",
+			"name": "Living Lands",
+			"colors": "G",
+			"rarity": "rare",
+			"cmc": 4,
+			"type": "Enchantment"
+		},
+		{
+			"id": "abd80204-e9ba-483f-9b75-a69712545ba9",
+			"name": "Llanowar Elves",
+			"colors": "G",
+			"rarity": "common",
+			"cmc": 1,
+			"type": "Creature — Elf Druid"
+		},
+		{
+			"id": "e31495ab-e6ed-40a6-b82d-aa6092b049e2",
+			"name": "Lure",
+			"colors": "G",
+			"rarity": "uncommon",
+			"cmc": 3,
+			"type": "Enchantment — Aura"
+		},
+		{
+			"id": "a594299e-fc3a-4d46-bd58-1a9cf7ddbdd7",
+			"name": "Natural Selection",
+			"colors": "G",
+			"rarity": "rare",
+			"cmc": 1,
+			"type": "Instant"
+		},
+		{
+			"id": "42ad2d7f-34a5-4b17-ae11-16b322601d73",
+			"name": "Regeneration",
+			"colors": "G",
+			"rarity": "common",
+			"cmc": 2,
+			"type": "Enchantment — Aura"
+		},
+		{
+			"id": "898cd314-9060-4f1c-a821-1d61a292a12b",
+			"name": "Regrowth",
+			"colors": "G",
+			"rarity": "uncommon",
+			"cmc": 2,
+			"type": "Sorcery"
+		},
+		{
+			"id": "fafe9639-e9d0-4aa2-8a16-f4ec24c140c0",
+			"name": "Scryb Sprites",
+			"colors": "G",
+			"rarity": "common",
+			"cmc": 1,
+			"type": "Creature — Faerie"
+		},
+		{
+			"id": "1ac8bdb0-2dfd-4531-a4d9-420f2f2a90be",
+			"name": "Shanodin Dryads",
+			"colors": "G",
+			"rarity": "common",
+			"cmc": 1,
+			"type": "Creature — Nymph Dryad"
+		},
+		{
+			"id": "da18a2c9-850e-400d-b0b3-edd8a946e380",
+			"name": "Stream of Life",
+			"colors": "G",
+			"rarity": "common",
+			"cmc": 1,
+			"type": "Sorcery"
+		},
+		{
+			"id": "6321e16b-0b4b-4d36-ab94-97bf5816acf4",
+			"name": "Thicket Basilisk",
+			"colors": "G",
+			"rarity": "uncommon",
+			"cmc": 5,
+			"type": "Creature — Basilisk"
+		},
+		{
+			"id": "aa598db8-c0c7-4a9a-bd89-6d3da0d3dfba",
+			"name": "Timber Wolves",
+			"colors": "G",
+			"rarity": "rare",
+			"cmc": 1,
+			"type": "Creature — Wolf"
+		},
+		{
+			"id": "ee21b620-4dfa-4e06-872e-8d8ffce12f76",
+			"name": "Tranquility",
+			"colors": "G",
+			"rarity": "common",
+			"cmc": 3,
+			"type": "Sorcery"
+		},
+		{
+			"id": "1f4b6f5a-1ba2-409d-9b9b-91e2c1470f62",
+			"name": "Tsunami",
+			"colors": "G",
+			"rarity": "uncommon",
+			"cmc": 4,
+			"type": "Sorcery"
+		},
+		{
+			"id": "da3f051c-6be3-4f92-8f66-9f72d75dbcf5",
+			"name": "Verduran Enchantress",
+			"colors": "G",
+			"rarity": "rare",
+			"cmc": 3,
+			"type": "Creature — Human Druid"
+		},
+		{
+			"id": "c2fca52b-80b3-4b6b-9a49-110c66557894",
+			"name": "Wall of Brambles",
+			"colors": "G",
+			"rarity": "uncommon",
+			"cmc": 3,
+			"type": "Creature — Plant Wall"
+		},
+		{
+			"id": "cc05a648-7719-4ed3-aa3b-648463ee2869",
+			"name": "Wall of Ice",
+			"colors": "G",
+			"rarity": "uncommon",
+			"cmc": 3,
+			"type": "Creature — Wall"
+		},
+		{
+			"id": "1a5054a4-599d-49df-9a80-77eeed47891f",
+			"name": "Wall of Wood",
+			"colors": "G",
+			"rarity": "common",
+			"cmc": 1,
+			"type": "Creature — Wall"
+		},
+		{
+			"id": "393f08a2-7aa8-443f-aab5-4287240e9167",
+			"name": "Wanderlust",
+			"colors": "G",
+			"rarity": "uncommon",
+			"cmc": 3,
+			"type": "Enchantment — Aura"
+		},
+		{
+			"id": "9f67175d-ac5c-4947-b243-d5206b552bdc",
+			"name": "War Mammoth",
+			"colors": "G",
+			"rarity": "common",
+			"cmc": 4,
+			"type": "Creature — Elephant"
+		},
+		{
+			"id": "f7f84dc2-5a29-447d-97ab-a10afd9ee538",
+			"name": "Web",
+			"colors": "G",
+			"rarity": "rare",
+			"cmc": 1,
+			"type": "Enchantment — Aura"
+		},
+		{
+			"id": "64f299eb-9cd6-40bc-ad44-22e3aeb5c930",
+			"name": "Wild Growth",
+			"colors": "G",
+			"rarity": "common",
+			"cmc": 1,
+			"type": "Enchantment — Aura"
+		},
+		{
+			"id": "a0367e54-eb07-475a-b06b-f869a046a86c",
+			"name": "Ankh of Mishra",
+			"colors": "",
+			"rarity": "rare",
+			"cmc": 2,
+			"type": "Artifact"
+		},
+		{
+			"id": "81d73362-43c1-4dd0-87dd-9aa7ae13ff2f",
+			"name": "Basalt Monolith",
+			"colors": "",
+			"rarity": "uncommon",
+			"cmc": 3,
+			"type": "Artifact"
+		},
+		{
+			"id": "b3a69a1c-c80f-4413-a6fd-ae54cabbce28",
+			"name": "Black Lotus",
+			"colors": "",
+			"rarity": "rare",
+			"cmc": 0,
+			"type": "Artifact"
+		},
+		{
+			"id": "d234f3d7-2f15-4fbf-92db-16c3433d644b",
+			"name": "Black Vise",
+			"colors": "",
+			"rarity": "uncommon",
+			"cmc": 1,
+			"type": "Artifact"
+		},
+		{
+			"id": "243c5460-8d4c-47a7-8a9c-ab626daa520a",
+			"name": "Celestial Prism",
+			"colors": "",
+			"rarity": "uncommon",
+			"cmc": 3,
+			"type": "Artifact"
+		},
+		{
+			"id": "6bec436c-2869-432a-b3cf-633a58af6d4c",
+			"name": "Chaos Orb",
+			"colors": "",
+			"rarity": "rare",
+			"cmc": 2,
+			"type": "Artifact"
+		},
+		{
+			"id": "6c6efe95-ae57-4ff1-8f8a-0d6f3bd36d9c",
+			"name": "Clockwork Beast",
+			"colors": "",
+			"rarity": "rare",
+			"cmc": 6,
+			"type": "Artifact Creature — Beast"
+		},
+		{
+			"id": "d4f54af3-7c85-43da-b0ce-df4a44af4736",
+			"name": "Conservator",
+			"colors": "",
+			"rarity": "uncommon",
+			"cmc": 4,
+			"type": "Artifact"
+		},
+		{
+			"id": "93842064-a0a8-4e4d-9c8a-e8a86448d225",
+			"name": "Copper Tablet",
+			"colors": "",
+			"rarity": "uncommon",
+			"cmc": 2,
+			"type": "Artifact"
+		},
+		{
+			"id": "e44d892f-a975-4062-8a54-5777d2600504",
+			"name": "Crystal Rod",
+			"colors": "",
+			"rarity": "uncommon",
+			"cmc": 1,
+			"type": "Artifact"
+		},
+		{
+			"id": "00775f44-fbe6-41ee-9977-d13d1fb5b6fb",
+			"name": "Cyclopean Tomb",
+			"colors": "",
+			"rarity": "rare",
+			"cmc": 4,
+			"type": "Artifact"
+		},
+		{
+			"id": "fe8ecaee-0de3-45ee-8428-09dc400d63d8",
+			"name": "Dingus Egg",
+			"colors": "",
+			"rarity": "rare",
+			"cmc": 4,
+			"type": "Artifact"
+		},
+		{
+			"id": "ae91e07c-ad6d-41d9-bd65-184f92761334",
+			"name": "Disrupting Scepter",
+			"colors": "",
+			"rarity": "rare",
+			"cmc": 3,
+			"type": "Artifact"
+		},
+		{
+			"id": "34855fa8-959d-45a2-ad91-8b17019755be",
+			"name": "Forcefield",
+			"colors": "",
+			"rarity": "rare",
+			"cmc": 3,
+			"type": "Artifact"
+		},
+		{
+			"id": "63c0e240-07b0-45fb-90af-f4fce18c604e",
+			"name": "Gauntlet of Might",
+			"colors": "",
+			"rarity": "rare",
+			"cmc": 4,
+			"type": "Artifact"
+		},
+		{
+			"id": "eb6953fd-ee48-49dc-9c9c-bfb9a9dc06d0",
+			"name": "Glasses of Urza",
+			"colors": "",
+			"rarity": "uncommon",
+			"cmc": 1,
+			"type": "Artifact"
+		},
+		{
+			"id": "559d3329-9053-4301-b867-1b49c248fe31",
+			"name": "Helm of Chatzuk",
+			"colors": "",
+			"rarity": "rare",
+			"cmc": 1,
+			"type": "Artifact"
+		},
+		{
+			"id": "37634ffe-788f-4262-88e8-5ab7c7ca74d6",
+			"name": "Howling Mine",
+			"colors": "",
+			"rarity": "rare",
+			"cmc": 2,
+			"type": "Artifact"
+		},
+		{
+			"id": "d27608e7-6539-4813-95b6-d8847cdc6a12",
+			"name": "Icy Manipulator",
+			"colors": "",
+			"rarity": "uncommon",
+			"cmc": 4,
+			"type": "Artifact"
+		},
+		{
+			"id": "61ea96b1-4428-4951-88d4-f79338955981",
+			"name": "Illusionary Mask",
+			"colors": "",
+			"rarity": "rare",
+			"cmc": 2,
+			"type": "Artifact"
+		},
+		{
+			"id": "b08fff47-c3c8-40a9-b3d3-296954aa4ed4",
+			"name": "Iron Star",
+			"colors": "",
+			"rarity": "uncommon",
+			"cmc": 1,
+			"type": "Artifact"
+		},
+		{
+			"id": "32516ab8-43be-4207-a7d5-4916933ce155",
+			"name": "Ivory Cup",
+			"colors": "",
+			"rarity": "uncommon",
+			"cmc": 1,
+			"type": "Artifact"
+		},
+		{
+			"id": "eeea32ba-dfe4-4a9b-b403-43c2abc80b78",
+			"name": "Jade Monolith",
+			"colors": "",
+			"rarity": "rare",
+			"cmc": 4,
+			"type": "Artifact"
+		},
+		{
+			"id": "985164ba-0c30-42b1-a8b6-3be19251359c",
+			"name": "Jade Statue",
+			"colors": "",
+			"rarity": "uncommon",
+			"cmc": 4,
+			"type": "Artifact"
+		},
+		{
+			"id": "e48b1c51-c0fd-4c08-8631-80f507b04d28",
+			"name": "Jayemdae Tome",
+			"colors": "",
+			"rarity": "rare",
+			"cmc": 4,
+			"type": "Artifact"
+		},
+		{
+			"id": "870eb49c-f62d-4986-b492-601feb68a307",
+			"name": "Juggernaut",
+			"colors": "",
+			"rarity": "uncommon",
+			"cmc": 4,
+			"type": "Artifact Creature — Juggernaut"
+		},
+		{
+			"id": "0cd2a4f9-8f80-4ee3-8068-73e686d6eeb9",
+			"name": "Kormus Bell",
+			"colors": "",
+			"rarity": "rare",
+			"cmc": 4,
+			"type": "Artifact"
+		},
+		{
+			"id": "0254bff2-a3a7-434e-980a-2d30355793fc",
+			"name": "Library of Leng",
+			"colors": "",
+			"rarity": "uncommon",
+			"cmc": 1,
+			"type": "Artifact"
+		},
+		{
+			"id": "0c2cd1c8-8734-4534-ae92-def4d94ef5bc",
+			"name": "Living Wall",
+			"colors": "",
+			"rarity": "uncommon",
+			"cmc": 4,
+			"type": "Artifact Creature — Wall"
+		},
+		{
+			"id": "a11f55e8-7f86-4ca9-b737-9a920d9cf282",
+			"name": "Mana Vault",
+			"colors": "",
+			"rarity": "rare",
+			"cmc": 1,
+			"type": "Artifact"
+		},
+		{
+			"id": "74b22007-9def-4c0f-921c-555483cc3deb",
+			"name": "Meekstone",
+			"colors": "",
+			"rarity": "rare",
+			"cmc": 1,
+			"type": "Artifact"
+		},
+		{
+			"id": "ea5d9476-76be-48e7-b6a0-49ced25cb092",
+			"name": "Mox Emerald",
+			"colors": "",
+			"rarity": "rare",
+			"cmc": 0,
+			"type": "Artifact"
+		},
+		{
+			"id": "133204e4-fef8-4851-aa50-c96ffa35b802",
+			"name": "Mox Jet",
+			"colors": "",
+			"rarity": "rare",
+			"cmc": 0,
+			"type": "Artifact"
+		},
+		{
+			"id": "4da892c5-071f-416f-9e42-c4bff102eb88",
+			"name": "Mox Pearl",
+			"colors": "",
+			"rarity": "rare",
+			"cmc": 0,
+			"type": "Artifact"
+		},
+		{
+			"id": "fdac742b-16db-4e03-be8f-c600dbd522d5",
+			"name": "Mox Ruby",
+			"colors": "",
+			"rarity": "rare",
+			"cmc": 0,
+			"type": "Artifact"
+		},
+		{
+			"id": "1eb3178b-dac5-4b34-9d3e-4f5a170d1c87",
+			"name": "Mox Sapphire",
+			"colors": "",
+			"rarity": "rare",
+			"cmc": 0,
+			"type": "Artifact"
+		},
+		{
+			"id": "dbb21f21-668a-4d57-8d05-8db11fb82d99",
+			"name": "Nevinyrral's Disk",
+			"colors": "",
+			"rarity": "rare",
+			"cmc": 4,
+			"type": "Artifact"
+		},
+		{
+			"id": "e9ed6669-e340-46d5-906b-e24e76464e75",
+			"name": "Obsianus Golem",
+			"colors": "",
+			"rarity": "uncommon",
+			"cmc": 6,
+			"type": "Artifact Creature — Golem"
+		},
+		{
+			"id": "45810c0a-0a35-4bd4-ba66-5a45f8973fa4",
+			"name": "Rod of Ruin",
+			"colors": "",
+			"rarity": "uncommon",
+			"cmc": 4,
+			"type": "Artifact"
+		},
+		{
+			"id": "c0fb91ec-20a8-4c13-9469-18885b1ecca3",
+			"name": "Sol Ring",
+			"colors": "",
+			"rarity": "uncommon",
+			"cmc": 1,
+			"type": "Artifact"
+		},
+		{
+			"id": "08ba41ec-4fff-4192-80ff-2afcd706ea59",
+			"name": "Soul Net",
+			"colors": "",
+			"rarity": "uncommon",
+			"cmc": 1,
+			"type": "Artifact"
+		},
+		{
+			"id": "49fcf47d-0f1d-469e-a8c4-d5c97be7a1ef",
+			"name": "Sunglasses of Urza",
+			"colors": "",
+			"rarity": "rare",
+			"cmc": 3,
+			"type": "Artifact"
+		},
+		{
+			"id": "84b83106-a10d-469a-99eb-56110ef34ba1",
+			"name": "The Hive",
+			"colors": "",
+			"rarity": "rare",
+			"cmc": 5,
+			"type": "Artifact"
+		},
+		{
+			"id": "655b6265-3030-4c68-af5b-b9e636b1a778",
+			"name": "Throne of Bone",
+			"colors": "",
+			"rarity": "uncommon",
+			"cmc": 1,
+			"type": "Artifact"
+		},
+		{
+			"id": "1164f22f-2706-4f35-9f58-d0eb8c344396",
+			"name": "Time Vault",
+			"colors": "",
+			"rarity": "rare",
+			"cmc": 2,
+			"type": "Artifact"
+		},
+		{
+			"id": "847de6a4-a268-492e-a4d2-5b12237bc130",
+			"name": "Winter Orb",
+			"colors": "",
+			"rarity": "rare",
+			"cmc": 2,
+			"type": "Artifact"
+		},
+		{
+			"id": "02eee156-54bd-46fc-8804-a73aab87f0ba",
+			"name": "Wooden Sphere",
+			"colors": "",
+			"rarity": "uncommon",
+			"cmc": 1,
+			"type": "Artifact"
+		},
+		{
+			"id": "a3393436-3426-4903-8f41-7abcbf6c18c2",
+			"name": "Badlands",
+			"colors": "",
+			"rarity": "rare",
+			"cmc": 0,
+			"type": "Land — Swamp Mountain"
+		},
+		{
+			"id": "17db2b6a-eaa8-4a08-9e86-370bbd058574",
+			"name": "Bayou",
+			"colors": "",
+			"rarity": "rare",
+			"cmc": 0,
+			"type": "Land — Swamp Forest"
+		},
+		{
+			"id": "fad0bbc4-f760-47a2-aab6-0dbb66ee3a95",
+			"name": "Plateau",
+			"colors": "",
+			"rarity": "rare",
+			"cmc": 0,
+			"type": "Land — Mountain Plains"
+		},
+		{
+			"id": "0e9aeaa8-9a75-4719-992f-cbb316f72175",
+			"name": "Savannah",
+			"colors": "",
+			"rarity": "rare",
+			"cmc": 0,
+			"type": "Land — Forest Plains"
+		},
+		{
+			"id": "8cf99186-3167-4092-8efb-e7448609ceba",
+			"name": "Scrubland",
+			"colors": "",
+			"rarity": "rare",
+			"cmc": 0,
+			"type": "Land — Plains Swamp"
+		},
+		{
+			"id": "30ce1bf0-7561-418f-a217-3ce10f28be82",
+			"name": "Taiga",
+			"colors": "",
+			"rarity": "rare",
+			"cmc": 0,
+			"type": "Land — Mountain Forest"
+		},
+		{
+			"id": "ac19c5a1-ca13-4443-920b-83b567167ed4",
+			"name": "Tropical Island",
+			"colors": "",
+			"rarity": "rare",
+			"cmc": 0,
+			"type": "Land — Forest Island"
+		},
+		{
+			"id": "1b93ce48-219c-49ea-9ad0-b7357bea4606",
+			"name": "Tundra",
+			"colors": "",
+			"rarity": "rare",
+			"cmc": 0,
+			"type": "Land — Plains Island"
+		},
+		{
+			"id": "5e91ce41-053e-4203-8860-49cbf854cc18",
+			"name": "Underground Sea",
+			"colors": "",
+			"rarity": "rare",
+			"cmc": 0,
+			"type": "Land — Island Swamp"
+		},
+		{
+			"id": "0324641d-af55-4c53-b4dc-c8262e967da5",
+			"name": "Volcanic Island",
+			"colors": "",
+			"rarity": "rare",
+			"cmc": 0,
+			"type": "Land — Island Mountain"
+		},
+		{
+			"id": "b7331b03-be66-419c-94bc-ed494c042ea3",
+			"name": "Plains",
+			"colors": "",
+			"rarity": "common",
+			"cmc": 0,
+			"type": "Basic Land — Plains"
+		},
+		{
+			"id": "52ff493a-6336-416e-af5e-1eb6d10c080e",
+			"name": "Plains",
+			"colors": "",
+			"rarity": "common",
+			"cmc": 0,
+			"type": "Basic Land — Plains"
+		},
+		{
+			"id": "38e2b0ff-8fdf-4db0-85c0-c1010bacd36b",
+			"name": "Plains",
+			"colors": "",
+			"rarity": "common",
+			"cmc": 0,
+			"type": "Basic Land — Plains"
+		},
+		{
+			"id": "bff33e91-8e52-43f2-b8ae-603b456b08fc",
+			"name": "Island",
+			"colors": "",
+			"rarity": "common",
+			"cmc": 0,
+			"type": "Basic Land — Island"
+		},
+		{
+			"id": "d0c5cf64-9844-4b5b-8e6b-b97c50cce053",
+			"name": "Island",
+			"colors": "",
+			"rarity": "common",
+			"cmc": 0,
+			"type": "Basic Land — Island"
+		},
+		{
+			"id": "c0a612c4-b4ac-4dd2-a06e-92516599fafd",
+			"name": "Island",
+			"colors": "",
+			"rarity": "common",
+			"cmc": 0,
+			"type": "Basic Land — Island"
+		},
+		{
+			"id": "d1309a80-a761-4b80-8cf1-1a8b83190511",
+			"name": "Swamp",
+			"colors": "",
+			"rarity": "common",
+			"cmc": 0,
+			"type": "Basic Land — Swamp"
+		},
+		{
+			"id": "25ad2444-9985-423c-ad36-387218866409",
+			"name": "Swamp",
+			"colors": "",
+			"rarity": "common",
+			"cmc": 0,
+			"type": "Basic Land — Swamp"
+		},
+		{
+			"id": "a3544148-49b2-4320-8e3a-5bab81e0f7fd",
+			"name": "Swamp",
+			"colors": "",
+			"rarity": "common",
+			"cmc": 0,
+			"type": "Basic Land — Swamp"
+		},
+		{
+			"id": "7af9c715-8d72-4eae-b412-fc89138ff588",
+			"name": "Mountain",
+			"colors": "",
+			"rarity": "common",
+			"cmc": 0,
+			"type": "Basic Land — Mountain"
+		},
+		{
+			"id": "7cb88a03-7092-4d31-a9f1-4f16e39bc537",
+			"name": "Mountain",
+			"colors": "",
+			"rarity": "common",
+			"cmc": 0,
+			"type": "Basic Land — Mountain"
+		},
+		{
+			"id": "af9ad645-e605-4048-bf4c-d636584f315b",
+			"name": "Mountain",
+			"colors": "",
+			"rarity": "common",
+			"cmc": 0,
+			"type": "Basic Land — Mountain"
+		},
+		{
+			"id": "b5a922eb-49c7-45f0-92bc-671d7a8758f4",
+			"name": "Forest",
+			"colors": "",
+			"rarity": "common",
+			"cmc": 0,
+			"type": "Basic Land — Forest"
+		},
+		{
+			"id": "89ad91fc-50c2-44e0-b88e-2c13610377f9",
+			"name": "Forest",
+			"colors": "",
+			"rarity": "common",
+			"cmc": 0,
+			"type": "Basic Land — Forest"
+		},
+		{
+			"id": "b4075bbc-dbad-4a1e-a992-70aed713a459",
+			"name": "Forest",
+			"colors": "",
+			"rarity": "common",
+			"cmc": 0,
+			"type": "Basic Land — Forest"
+		}
+	]
+}

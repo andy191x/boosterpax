@@ -1,0 +1,223 @@
+
+/*
+ * Typography
+ */
+
+html {
+    font-size: 62.5%; /* 10px */
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.8rem;
+    background-color: #1a1a1a;
+    color: #ffffff;
+}
+
+.goudy {
+    font-family: 'GoudyMedieval', sans-serif;
+}
+
+.ellipsis {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* ---------------------------- */
+
+/*
+ * Block widget
+ */
+
+.block {
+    width: 100%;
+    background-color: #f8f9fa;
+    color: #1f1f1f;
+}
+
+.block > div {
+    max-width: 128.0rem;
+    box-sizing: border-box;
+    display: block;
+    padding: 4.8rem 0.8rem 6.4rem 0.8rem;
+    margin: 0 auto;
+    text-align: left;
+    overflow-x: hidden;
+}
+
+/* ---------------------------- */
+
+/*
+ * Overlay widget
+ */
+
+.overlay {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.90);
+    z-index: 100;
+    overflow: auto;
+    display: flex;
+    visibility: hidden;
+}
+
+.overlay > div {
+    padding: 0.8rem;
+    margin: auto;
+    max-width: 700px; /* media query */
+    position:relative;
+    background-color: #000000;
+    /*background: repeat url('/images/ui_tile.png');*/
+    background: repeat url('/images/backgrounds/tile1c.jpg');
+    color: #ffffff;
+    border: 0.6rem solid #1f1f1f;
+}
+
+@media (max-width: 700px) {
+    .overlay > div {
+        max-width: 100%;
+    }
+}
+
+/**
+.overlay *[data-name="close"] {
+    display: block;
+    font-family: 'GoudyMedieval', sans-serif;
+    width: 6.4rem;
+    height: 6.4rem;
+    position:absolute;
+    top: 0.8rem;
+    right: 0.8rem;
+    text-align: center;
+    overflow: hidden;
+    font-size: 6.4rem;
+    line-height: 7.4rem;
+    cursor: pointer;
+    color: #ffffff;
+    background-color: rgba(255,255,255,0.25);
+}
+
+.overlay *[data-name="close"]:focus,
+.overlay *[data-name="close"]:hover {
+    color: #1f1f1f;
+}
+*/
+
+/* ---------------------------- */
+
+/*
+ * Header widget
+ */
+
+.block.header {
+    background: url('/images/hero2.jpg') no-repeat center / cover;
+    /*border-bottom: 0.1em solid rgba(0, 0, 0, 0.2);*/
+}
+.block.header > div {
+    text-align: center;
+    /*padding: 5.0rem;*/
+    padding: 3.0rem 5.0rem 8.0rem 5.0rem;
+}
+.block.header img {
+    max-height: 6.4rem;
+}
+.block.header p {
+    margin: 6.0rem 0 4.0rem 0;
+    text-shadow: 0 0 2.0rem #cacaca;
+    font-size: 5.6rem;
+    line-height: 6.6rem;
+    font-weight: bold;
+}
+
+@media (max-width: 700px) {
+    .block.header > div {
+        padding: 3.0rem;
+    }
+    .block.header p {
+        margin: 3.0rem 0 2.0rem 0;
+        font-size: 2.6rem;
+        line-height: 3.6rem;
+    }
+}
+
+.block.header p .line1 {
+    color: #000000;
+}
+
+.block.header p .line2 {
+    color: #690258;
+}
+
+/* ---------------------------- */
+
+/*
+ * Footer widget
+ */
+
+.block.footer {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    border-top: 0.1em solid rgba(0, 0, 0, 0.2);
+}
+
+#contact {
+    margin-bottom: 4.0rem;
+}
+
+/* ---------------------------- */
+
+/*
+ * UI components
+ */
+
+.ui_label {
+    font-family: 'GoudyMedieval', sans-serif;
+}
+
+.button.ui_button, button.ui_button, input[type='button'].ui_button, input[type='reset'].ui_button, input[type='submit'].ui_button {
+    background-color: rgba(255,255,255,0.25);
+    border: 0.1rem solid #000000;
+    border-radius: 0.2rem;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.3rem;
+    font-weight: bold;
+    height: 3.5rem;
+    letter-spacing: 0.1rem;
+    line-height: 3.5rem;
+    padding: 0 1.5rem;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+input[type='color'].ui_text,
+input[type='date'].ui_text,
+input[type='datetime'].ui_text,
+input[type='datetime-local'].ui_text,
+input[type='email'].ui_text,
+input[type='month'].ui_text,
+input[type='number'].ui_text,
+input[type='password'].ui_text,
+input[type='search'].ui_text,
+input[type='tel'].ui_text,
+input[type='text'].ui_text,
+input[type='url'].ui_text,
+input[type='week'].ui_text,
+input:not([type]).ui_text,
+textarea,
+select {
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgba(255,255,255,0.25);
+    border: 0.1rem solid #000000;
+    border-radius: 0.2rem;
+    color: #ffffff;
+    height: 3.5rem;
+}

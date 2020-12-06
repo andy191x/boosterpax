@@ -1,0 +1,490 @@
+{% extends '/layout/layout1.html.twig' %}
+
+{% block css %}
+<style>
+
+/* ---------------------------- */
+
+/*
+ * Logo widget
+ */
+
+.block.logo {
+    background-color: #8eabff;
+}
+.block.logo > div {
+    padding: 1.0rem;
+    font-family: 'GoudyMedieval', sans-serif;
+    font-size: 2.0rem;
+    font-weight: normal;
+    line-height: 3.2rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.block.logo a {
+    color: #ffffff;
+    text-shadow: 0.1rem 0.1rem 0 #000000;
+    font-size: 3.6rem;
+    vertical-align: middle;
+    margin-right: 2.0rem;
+}
+
+@media (max-width: 400px) {
+    .block.logo [data-name="set_name"] {
+        display: none;
+    }
+}
+
+.block.logo.set_lea         { background-color: #824e20; color: #000000; }
+.block.logo.set_lea a,
+.block.logo.set_lea a:hover { color: #51abf5; text-shadow: 0.1rem 0.1rem 0 #000000; }
+
+.block.logo.set_leb         { background-color: #7c664f; color: #000000; }
+.block.logo.set_leb a,
+.block.logo.set_leb a:hover { color: #51abf5; text-shadow: 0.1rem 0.1rem 0 #000000; }
+
+.block.logo.set_2ed         { background-color: #946c45; color: #000000; }
+.block.logo.set_2ed a,
+.block.logo.set_2ed a:hover { color: #51abf5; text-shadow: 0.1rem 0.1rem 0 #000000; }
+
+.block.logo.set_arn         { background-color: #84457a; color: #000000; }
+.block.logo.set_arn a,
+.block.logo.set_arn a:hover { color: #e7a42e; text-shadow: 0.1rem 0.1rem 0 #000000; }
+
+.block.logo.set_atq         { background-color: #8b7a69; color: #000000; }
+.block.logo.set_atq a,
+.block.logo.set_atq a:hover { color: #b58679; text-shadow: 0.1rem 0.1rem 0 #4c0001; }
+
+.block.logo.set_leg         { background-color: #483c51; color: #ffffff; }
+.block.logo.set_leg a,
+.block.logo.set_leg a:hover { color: #fbe08a; text-shadow: 0.1rem 0.1rem 0 #ff0000; }
+
+.block.logo.set_3ed         { background-color: #895337; color: #000000; }
+.block.logo.set_3ed a,
+.block.logo.set_3ed a:hover { color: #51abf5; text-shadow: 0.1rem 0.1rem 0 #000000; }
+
+.block.logo.set_drk         { background-color: #543f46; color: #ffffff; }
+.block.logo.set_drk a,
+.block.logo.set_drk a:hover { color: #a082aa; text-shadow: 0.1rem 0.1rem 0 #000000; }
+
+
+/* ---------------------------- */
+
+/*
+ * Booster bar widget
+ */
+
+.block.booster_bar {
+    background-color: #1a1a1a;
+    /*background: repeat url('/images/ui_tile.png');*/
+    color: #ffffff;
+    border: 0px solid #000000;
+    /*border-top-width: 0.1rem;*/
+}
+
+.block.booster_bar > div {
+    padding: 1.0rem;
+}
+
+.block.booster_bar .flexrow {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.block.booster_bar button,
+.block.booster_bar input[type="text"] {
+    margin: 0 0.5rem 0.5rem 0.5rem;
+}
+
+.block.booster_bar .flexrow .ui_label {
+    align-self: center;
+}
+
+.block.booster_bar [data-name="status"] {
+    flex-grow: 1;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.block.booster_bar [data-name="main_row"] {
+    justify-content: flex-end;
+}
+
+.block.booster_bar [data-name="sort_row"] {
+    display: none;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    margin-top: 0.5rem;
+}
+
+.block.booster_bar [data-name="save_url_row"] {
+    display: none;
+    justify-content: flex-end;
+    flex-wrap: nowrap;
+    margin-top: 0.5rem;
+}
+
+.block.booster_bar [data-name="save_url_label"] {
+    white-space: nowrap;
+
+}
+
+/* open state */
+
+.block.booster_bar.open_state [data-name="sort"] { display: none; }
+.block.booster_bar.open_state [data-name="save_url"] { display: none; }
+.block.booster_bar.open_state [data-name="new_pack"] { display: none; }
+
+/* view state */
+
+.block.booster_bar.view_state [data-name="drawall"] { display: none; }
+
+@media (max-width: 700px) {
+    .block.booster_bar.view_state [data-name="status"] { display: none; }
+}
+@media (min-width: 701px) {
+    /* ... */
+}
+
+/* ---------------------------- */
+
+.stage {
+    background-color: #000000;
+    background: repeat url('/images/backgrounds/tile1c.jpg');
+    border: 0px solid #000000;
+    border-top-width: 0.1rem;
+    border-bottom-width: 0.1rem;
+}
+
+.stage .preload {
+    margin: 4.0rem 2.0rem 2.0rem 2.0rem;
+    font-family: 'GoudyMedieval', sans-serif;
+    font-size: 4.0rem;
+    text-align: center;
+}
+
+/**
+#overlay_card [data-name="line1"] {
+    min-height: 6.4rem;
+    line-height: 6.4rem;
+    margin-bottom: 0.8rem;
+    font-family: 'GoudyMedieval', sans-serif;
+    font-size: 2.0rem;
+}
+*/
+
+#overlay_card .line {
+    margin-bottom: 0.8rem;
+    font-family: 'GoudyMedieval', sans-serif;
+    font-size: 2.0rem;
+    text-align: center;
+}
+
+#overlay_card img[data-name="card"] {
+    max-width: 100%;
+}
+
+</style>
+{% endblock %}
+
+{% block html %}
+    <div class="block logo set_{{ set_code }}">
+        <div>
+            <a href="/">BoosterPax</a>
+            <span data-name="set_name">{{ set_name }}</span>
+        </div>
+    </div>
+
+    <div class="block booster_bar open_state">
+        <div>
+
+            <div data-name="main_row" class="flexrow">
+                <span data-name="status" class="ui_label"></span>
+                <button data-name="drawall" class="ui_button">Draw All</button>
+                <button data-name="sort" class="ui_button">Sort</button>
+                <button data-name="save_url" class="ui_button">Save Draw</button>
+                <a data-name="new_pack" class="button ui_button" href="{{ route }}">New Pack</a>
+            </div>
+
+            <div data-name="sort_row" class="flexrow">
+                <span class="ui_label">Sort:</span>
+                <button data-sort="pack" class="ui_button">Pack Order <i class="fas fa-sort"></i></button>
+                <button data-sort="name" class="ui_button">Name <i class="fas fa-sort"></i></button>
+                <button data-sort="rarity" class="ui_button">Rarity <i class="fas fa-sort"></i></button>
+                <button data-sort="color" class="ui_button">Color <i class="fas fa-sort"></i></button>
+                <button data-sort="cmc" class="ui_button">CMC <i class="fas fa-sort"></i></button>
+                <button data-sort="type" class="ui_button">Type <i class="fas fa-sort"></i></button>
+                <button data-sort="random" class="ui_button">Random <i class="fas fa-sort"></i></button>
+            </div>
+
+            <div data-name="save_url_row" class="flexrow">
+                <span data-name="save_url_label" class="ui_label">Save URL:</span>
+                <input data-name="save_url_text" type="text" class="ui_text" value="{{ save_url }}" readonly/>
+                <button data-name="save_url_copy" class="ui_button">Copy</button>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="stage">
+        <div class="preload preload_init">
+            <p data-name="preload_text"></p>
+        </div>
+        <div class="preload preload_error">
+            <p>Loading failed.<br/>
+            <br/>
+            Try refreshing the page.</p>
+        </div>
+        <div class="isotope"></div>
+    </div>
+
+    <div id="overlay_card" class="overlay">
+        <div>
+
+                {#<a data-name="close">X</a>#}
+                <div data-name="card_container">
+                    <img src="/images/null.png" alt="Card" data-name="card"/>
+                </div>
+                <div data-name="line1" class="line"></div>
+                <div data-name="line2" class="line">
+                    <button data-name="close" class="ui_button">Close Card Viewer</button>
+                </div>
+
+        </div>
+    </div>
+
+{% endblock %}
+
+{% block js %}
+    <script src="/components/tearbooster.js?v={{ INCLUDE_VERSION }}"></script>
+    <script src="/components/domcard.js?v={{ INCLUDE_VERSION }}"></script>
+    <script src="/components/stagecontroller.js?v={{ INCLUDE_VERSION }}"></script>
+    <script>
+        let stagecontroller = null;
+        let cardset_json = '{{ cardset_json|escape('js') }}';
+        let pack_json = '{{ pack_json|escape('js') }}';
+        let cardset = {};
+        let card_array = [];
+
+        $(document).ready(function()
+        {
+            // Setup data
+            cardset = JSON.parse(cardset_json);
+            card_array = JSON.parse(pack_json);
+
+            // Setup booster bar
+            let booster_bar = $('.booster_bar');
+
+            let status_label = booster_bar.find('[data-name="status"]');
+            status_label.text('Tear booster to begin.');
+
+            let drawall_button = booster_bar.find('[data-name="drawall"]');
+            drawall_button.click(function()
+            {
+                let sc_state = stagecontroller.getState();
+                if (sc_state == 'init' || sc_state == 'preload')
+                {
+                    return;
+                }
+
+                status_label.text('Fast forwarding...');
+                stagecontroller.drawAll();
+            });
+
+            let sort_button = booster_bar.find('[data-name="sort"]');
+            sort_button.click(function()
+            {
+                let sort_row = booster_bar.find('[data-name="sort_row"]');
+                toggleFlex(sort_row);
+            });
+
+            let sort_row = booster_bar.find('[data-name="sort_row"]');
+            sort_row.find('button').click(function()
+            {
+                let button = $(this);
+                let new_sort = button.attr('data-sort');
+                let ascending = true;
+                if (stagecontroller.getSort() == new_sort)
+                {
+                    ascending = !(stagecontroller.getSortAscending());
+                }
+
+                stagecontroller.sort(new_sort, ascending);
+            });
+            
+            let save_url_button = booster_bar.find('[data-name="save_url"]');
+            save_url_button.click(function()
+            {
+                let save_url_row = booster_bar.find('[data-name="save_url_row"]');
+                toggleFlex(save_url_row);
+            });
+
+            let save_url_copy = booster_bar.find('[data-name="save_url_copy"]');
+            save_url_copy.click(function()
+            {
+                let save_url_text = booster_bar.find('[data-name="save_url_text"]');
+
+                save_url_text.get(0).select();
+                document.execCommand("copy");
+                save_url_text.get(0).setSelectionRange(0, 0);
+
+                save_url_copy.text('Copied!');
+                setTimeout(function()
+                {
+                    save_url_copy.text('Copy');
+                }, 500);
+            });
+
+            // Setup stage
+            let stage = $('.stage');
+
+            let sc_config = {};
+            sc_config['parent'] = stage;
+            sc_config['cardset'] = cardset;
+            sc_config['card_array'] = card_array;
+            sc_config['on_draw_remain_changed'] = function(sc, count)
+            {
+                if (count == card_array.length)
+                {
+                    status_label.text('Touch card to reveal.');
+                }
+                else
+                {
+                    let index = (card_array.length - (count + 1));
+                    let card = card_array[index];
+                    //let status = 'Pulled ' + formatRaritySentence(card) + '. ' + count + ' left.';
+                    let status = (index + 1) + ': ' + 'Pulled ' + formatRaritySentence(card) + '.';
+
+                    status_label.text(status);
+                }
+            }
+
+            sc_config['on_view_pack'] = function(sc)
+            {
+                // Setup booster bar
+                let booster_bar = $('.booster_bar');
+                booster_bar.attr('class', 'block booster_bar view_state');
+
+                let status_label = booster_bar.find('[data-name="status"]');
+                status_label.text('');
+            }
+            sc_config['on_view_card_click'] = function(sc, card_id)
+            {
+                let card = cardIdToCard(card_id);
+                if (card != null)
+                {
+                    onShowCard(card);
+                }
+            }
+            sc_config['on_view_card_mousemove'] = function(sc, card_id)
+            {
+                let card = cardIdToCard(card_id);
+                if (card != null)
+                {
+                    let status = card.name + ': ' + formatRarity(card, true);
+                    status_label.text(status);
+                }
+            }
+            sc_config['on_view_card_mouseout'] = function(sc, card_id)
+            {
+                let card = cardIdToCard(card_id);
+                if (card != null)
+                {
+                    status_label.text('');
+                }
+            }
+
+            stagecontroller = new StageController(sc_config);
+            stagecontroller.start();
+
+            // Setup overlays
+            let overlay_array = $('.overlay');
+            for (let i = 0; i < overlay_array.length; i++)
+            {
+                let overlay = overlay_array.eq(i);
+                let inner = overlay.children('div');
+                let close = overlay.find('[data-name="close"]');
+                let img_card = overlay.find('[data-name="card"]');
+
+                overlay.click(function(e)
+                {
+                    onOverlayClose(overlay);
+                });
+
+                inner.click(function(e)
+                {
+                    e.stopPropagation();
+                });
+
+                close.click(function(e)
+                {
+                    onOverlayClose(overlay);
+                });
+
+                img_card.click(function(e)
+                {
+                    onOverlayClose(overlay);
+                });
+            }
+        });
+
+        function onOverlayClose(overlay)
+        {
+            overlay.css({'opacity': 1.0 });
+            anime({
+                targets: overlay.get(0),
+                opacity: 0.0,
+                easing: 'linear',
+                duration: 333,
+                complete: function (anim)
+                {
+                    overlay.css({'opacity': 0, 'visibility': 'hidden'});
+                }
+            });
+        }
+
+        function onShowCard(card)
+        {
+            let overlay_array = $('.overlay');
+            overlay_array.css({'opacity': 0, 'visibility': 'hidden'});
+
+            let overlay = $('#overlay_card');
+
+            let line1 = overlay.find('[data-name="line1"]');
+            let line1_text = card.name + ': ' + formatRarity(card, true);
+            line1.text(line1_text);
+
+            let img_card = overlay.find('[data-name="card"]');
+            img_card.attr('src', '/cards/' + cardset.code + '/large/' + card.id + '.jpg');
+
+            img_card.removeClass('domcard-border-radius-alpha');
+            img_card.removeClass('domcard-border-radius-beta');
+            img_card.addClass((cardset.code == 'lea') ? 'domcard-border-radius-alpha' : 'domcard-border-radius-beta');
+
+            overlay.css({'opacity': 0, 'visibility': 'visible'});
+            anime({
+                targets: overlay.get(0),
+                opacity: 1.0,
+                easing: 'linear',
+                duration: 1000
+            });
+        }
+
+        function cardIdToCard(card_id)
+        {
+            for (let i = 0; i < card_array.length; i++)
+            {
+                if (card_array[i].id == card_id)
+                {
+                    return card_array[i];
+                }
+            }
+
+            return null;
+        }
+
+    </script>
+{% endblock %}

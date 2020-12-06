@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- SEO -->
+    <meta name="author" content="Andy Davis">
+    <meta name="designer" content="Andy Davis">
+    <meta name="publisher" content="Andy Davis">
+    <meta name="description" content="Realistic MTG Booster Experience. Open vintage Magic: The Gathering booster packs for free!">
+    <meta name="keywords" content="mtg booster, mtg alpha, mtg alpha booster, mtg booster, mtg beta booster, mtg unlimited booster, mtg 93, mtg 94, mtg vintage booster">
+
+    <title>{{ title }}</title>
+
+    <!-- Icons -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Fonts -->
+    <link href="/fonts/opensans/opensans.css" rel="stylesheet" type="text/css">
+    <link href="/fonts/goudy/goudy.css" rel="stylesheet" type="text/css">
+    <link href="/fonts/fontawesome/css/fontawesome-all.css" rel="stylesheet" type="text/css">
+
+    <!-- CSS -->
+    <link href="/vendor/normalize/normalize.css?v={{ INCLUDE_VERSION }}" rel="stylesheet" type="text/css">
+    <link href="/vendor/milligram/milligram.css?v={{ INCLUDE_VERSION }}" rel="stylesheet" type="text/css">
+    <link href="/global.css?v={{ INCLUDE_VERSION }}" rel="stylesheet" type="text/css">
+    <link href="/components/stagecontroller.css?v={{ INCLUDE_VERSION }}" rel="stylesheet" type="text/css">
+    <link href="/components/tearbooster.css?v={{ INCLUDE_VERSION }}" rel="stylesheet" type="text/css">
+    <link href="/components/domcard.css?v={{ INCLUDE_VERSION }}" rel="stylesheet" type="text/css">
+    {% block css %}{% endblock %}
+
+</head>
+<body>
+
+    <!-- Header -->
+    {% if show_header %}
+        <div class="block header">
+            <div>
+                <div style="text-align: left;"><a href="/"><img src="/images/logo2.png" alt="BoosterPax"/></a></div>
+                <p>
+                    <span class="line1">Magic: The Gathering</span><br/>
+                    <span class="line2">Vintage Booster Experience</span>
+                </p>
+            </div>
+        </div>
+    {% endif %}
+
+    {% block html %}{% endblock %}
+
+    <!-- Footer -->
+    <div class="block footer">
+        <div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="column column-25">
+                        <a href="/">BoosterPax</a><br/>
+                        <a href="https://github.com/andy191x/boosterpax">Source Code</a><br/>
+                        <a href="/about/">About</a><br/>
+                        <br/>
+                        <div id="contact">
+                            <button data-name="contact">Contact</button>
+                            <span data-name="contact_label"></span>
+                        </div>
+                    </div>
+                    <div class="column column-75">
+                        Created by <a href="https://twitter.com/andy191x">Andy Davis</a> in 2020.<br/>
+                        <br/>
+                        BoosterPax is unofficial Fan Content permitted under the <a href="https://company.wizards.com/fancontentpolicy">Fan Content Policy</a>. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC.
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Script -->
+    <script src="/vendor/jquery/jquery-3.5.1.min.js"></script>
+    <script src="/vendor/isotope/isotope.pkgd.min.js?v={{ INCLUDE_VERSION }}"></script>
+    <script src="/vendor/anime/anime.min.js?v={{ INCLUDE_VERSION }}"></script>
+    <script src="/global.js?v={{ INCLUDE_VERSION }}"></script>
+    {% block js %}{% endblock %}
+    <script>
+        $(document).ready(function()
+        {
+            let contact_block = $('#contact');
+            let contact_button = contact_block.find('[data-name="contact"]');
+            let contact_label = contact_block.find('[data-name="contact_label"]');
+
+            contact_button.click(function()
+            {
+                let email = 'YW5keUAxOTF4LmNvbQ==';
+                contact_button.hide();
+                contact_label.html('E-mail: <a href="mailto:' + html_encode(atob(email)) + '">' + html_encode(atob(email)) + '</a>');
+                contact_label.show();
+            });
+        });
+    </script>
+</body>
+</html>

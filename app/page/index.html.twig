@@ -1,0 +1,82 @@
+{% extends '/layout/layout1.html.twig' %}
+
+{% block css %}
+<style>
+
+    .block.packlist {
+        /*background: repeat url('/images/packlist_tile.jpg');*/
+    }
+    .block.packlist > div {
+        text-align: center;
+    }
+    .block.packlist .pack_outer {
+        display: inline-block;
+        padding: 2.0rem;
+        text-align: left;
+        width: 25.6rem;
+        vertical-align: top;
+    }
+    @media (max-width: 500px) {
+        .block.packlist .pack_outer {
+            width: 100%;
+        }
+    }
+    .block.packlist .pack {
+        background-color: rgba(224,224,224,0.5); /* #e0e0e0; */
+        border-radius: 2.0rem;
+        text-align: center;
+    }
+    .block.packlist .pack > img {
+        width: 25.6rem;
+    }
+    .block.packlist h2 {
+        font-size: 2.8rem;
+        margin: 2.0rem 0 0.4rem 0;
+    }
+
+</style>
+{% endblock %}
+
+{% block html %}
+
+    <div class="block packlist">
+        <div>
+
+            {% for packinfo_array in packinfo_row_array %}
+                {% for packinfo in packinfo_array %}
+                    {% if packinfo.type == 'booster' %}
+                        <div class="pack_outer">
+                            <a href="/booster/{{ packinfo.slug }}/"><div class="pack"><img src="/images/booster-thumbs/{{ packinfo.setcode }}.png"/></div></a>
+                            <h2>{{ packinfo.name }}</h2>
+                            <p>{{ packinfo.subtext }}</p>
+                        </div>
+                    {% elseif packinfo.type == 'spacer' %}
+                        <div class="pack_outer"></div>
+                    {% endif %}
+                {% endfor %}
+            {% endfor %}
+
+            {#
+            <div class="container">
+                {% for packinfo_array in packinfo_row_array %}
+                    <div class="row">
+                        {% for packinfo in packinfo_array %}
+                            {% if packinfo.type == 'booster' %}
+                                <div class="column">
+                                    <a href="/booster/{{ packinfo.slug }}/"><div class="pack"><img src="/images/booster-thumbs/{{ packinfo.setcode }}.png"/></div></a>
+                                    <h2>{{ packinfo.name }}</h2>
+                                    <p>{{ packinfo.subtext }}</p>
+                                </div>
+                            {% elseif packinfo.type == 'spacer' %}
+                                <div class="column"></div>
+                            {% endif %}
+                        {% endfor %}
+                    </div>
+                {% endfor %}
+            </div>
+            #}
+
+        </div>
+    </div>
+
+{% endblock %}
