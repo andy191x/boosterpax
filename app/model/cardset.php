@@ -33,8 +33,6 @@ class CardSet extends ErrorBase
             'released_at' => '',
             'card_count' => 0,
         );
-
-        
     }
 
     //
@@ -53,15 +51,6 @@ class CardSet extends ErrorBase
         $this->map->setMany(self::getDefaultMap());
 
         $this->card_array = array();
-        
-        $x = 0;
-        $x++;
-        $x *= 2;
-        $z
-        sdafadsfdas
-        x--------------------------
-
-        $this->setCardArray();
     }
 
     /**
